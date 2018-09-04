@@ -1,6 +1,6 @@
 # Areas Of Contribution
 
-This repo contains the Areas of Contribution corresponding to the Feedback Form is in use by CF Engineering in San Francisco, Santa Monica, and Palo Alto. This repo is under active construction.
+This repo contains the Areas of Contribution corresponding to the Feedback Form that is in use by CF Engineering in San Francisco, Santa Monica, and Palo Alto. This repo is under active construction.
 
 # Contributing Guidelines
 
