@@ -1,4 +1,4 @@
-## Alignment and Adaptibility
+## Alignment and Adaptability
 You take on the most important challenge with an open mind; to what degree are you willing and capable to take on the challenge that the organization would find the most impactful, even if it's not your first choice. You actively consider how you can best help the organization, and work with leadership to align your strengths and goals with important challenges. You improve leadership's visibility into difficult problems while engaging positively in solving them.
 
 Example of success in this area: You would like to work on <project 1> next, to improve your technical execution skill. Leadership would like you to rotate to <project 2>, which is under-allocated and needs your experience and guidance. You have already been on this team before, and would probably not choose to take on this challenge of your own volition. However, you agree to the change in plans, approach <project 2> with positivity, find ways to grow your skills in other areas while you are there, and are able to address the challenges on the team.
