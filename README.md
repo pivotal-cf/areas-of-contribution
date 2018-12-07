@@ -4,4 +4,4 @@ This repo contains the Areas of Contribution corresponding to the Feedback Form 
 
 # Contributing Guidelines
 
-We woud love to hear from you! Please feel free to open GitHub Issues with questions or concerns. You can also reach out to your manager or an Engineering Director to learn more. Finally, you can join the conversation on Pivotal Slack at #feedback-collection.
+We would love to hear from you! Please feel free to open GitHub Issues with questions or concerns. You can also reach out to your manager or an Engineering Director to learn more. Finally, you can join the conversation on Pivotal Slack at #feedback-collection.
