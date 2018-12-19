@@ -1,6 +1,6 @@
 ## Recruitment / Growing the office
 
-This niche skill matrix is supposed to be a conversation between you,
+This skill matrix is supposed to be a conversation between you,
 your manager, and your local director. It is more difficult to acquire data for
 this skill from your peers since they may not be involved in these activities and will not
 have examples of your work in this area. Therefore, this niche skill will not be
@@ -27,6 +27,7 @@ listed below might currently be coupled to certain job titles.)
   <li>Greets candidates doing on site interviews.</li>
   <li>Participates in recruitment events organized by others.</li>
   <li>Conducts in-person pairing interviews and provides feedback about the candidate with examples in the scorecard and the debrief.</li>
+  <li>Is reviewing resumes of applicants to open job postings.</li>
 </ul>
 </td><td valign="top">
 <ul>
@@ -35,7 +36,6 @@ listed below might currently be coupled to certain job titles.)
   <li>Is learning how to RPI.</li>
   <li>Coordinates the hosting of recruitment events in their local office.</li>
   <li>Is conducting RPIs.</li>
-  <li>Is reviewing resumes of applicants to open job postings.</li>
 </ul>
 </td><td valign="top">
 <ul>
