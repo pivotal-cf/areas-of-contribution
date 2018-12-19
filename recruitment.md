@@ -3,12 +3,12 @@
 This skill matrix is supposed to be a conversation between you,
 your manager, and your local director. It is more difficult to acquire data for
 this skill from your peers since they may not be involved in these activities and will not
-have examples of your work in this area. Therefore, this niche skill will not be
-in the feedback form nor the resulting heat map. Feedback collected on this niche
+have examples of your work in this area. Therefore, this skill will not be
+in the feedback form nor the resulting heat map. Feedback collected on this
 skill will be additional qualitative data that your manager can use during your
 review to recognize you for your contributions in this area.
 
-This niche skill is not tied to p-levels or job title (although some responsibilities
+This skill is not tied to p-levels or job title (although some responsibilities
 listed below might currently be coupled to certain job titles.)
 
 
