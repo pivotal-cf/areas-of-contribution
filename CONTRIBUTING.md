@@ -18,7 +18,7 @@ To get there, we plan to:
   their proposed changes will be reviewed and merged.
 
 3. Establish a deployment process: so that changes here are reflected in the
-  forms we use when gathering feedback.
+  forms we use when gathering feedback.  [Related issue here](https://github.com/pivotal-cf/areas-of-contribution/issues/11).
 
 We're hoping that will enable others to help us improve things here!
 
