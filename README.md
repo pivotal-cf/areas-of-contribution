@@ -1,10 +1,12 @@
 # Areas Of Contribution
 
-This repo contains the Areas of Contribution corresponding to the Feedback Form that is in use by CF Engineering in San Francisco and Santa Monica.
+This *public* repo contains the set of skills, organized by "area" and "P-level", that CF Engineering management in SF and LA use when gathering feedback and evaluating engineers.
 
-**This repo is under active construction.**
+Have questions about how to interpret all of this?  Ask your manager, or open an issue on this repo!
 
+## Want to contribute?
+**This repo is under active construction** and we welcome your help in improving
+it.
 
-# Want to contribute?
 Please see our [Contribution guide](CONTRIBUTING.md).
 

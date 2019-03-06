@@ -6,7 +6,23 @@ This effort is still early and we've got a lot of problems to solve.  We welcome
 
 Feel free to open GitHub issues with questions or concerns. You can also reach out to your local Engineering Director to learn more, and/or join the conversation on Pivotal Slack at `#feedback-collection`.
 
-We ask that you keep the following context in-mind when suggesting
+## Roadmap
+We're actively working to lower the cost of change to this repo.  Our goal is to
+enable a pull-request workflow.
+
+To get there, we plan to:
+
+1. Document underlying intent behind existing skills: so that Pivots can consider and incorporate that intent when proposing changes to this repo
+
+2. Establish a change-review process: so that contributors understand how
+  their proposed changes will be reviewed and merged.
+
+3. Establish a deployment process: so that changes here are reflected in the
+  forms we use when gathering feedback.
+
+We're hoping that will enable others to help us improve things here!
+
+Want to suggest a change now?  We ask that you keep the following context in-mind when suggesting
 improvements...
 
 ## Goals and anti-goals
