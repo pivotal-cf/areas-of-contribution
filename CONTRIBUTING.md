@@ -32,11 +32,7 @@ trying to identify and organize types of engineering contributions.
 
 We're attempting to organize contributions based on what we've historically observed to be impactful at various P-levels.
 
-The immediate goal is to spark conversations about what we should keep and what we should change.
-
-Over time, we aim to enable engineers to understand and influence the factors
-used in determining their P-level.
-
+See also: [Motivation](README.md#motivation).
 
 ## Terminology
 
