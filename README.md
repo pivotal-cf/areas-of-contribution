@@ -9,6 +9,7 @@ We intent for the skills listed in this repo to describe the *impact* that a Piv
 
 This is because we want to avoid perverse incentives or "gamifiying" the performance of activities to the detriment of outcomes.  Also, there is often more than one activity, or way of doing an activity, that can lead to a particular outcome.  So we want to align our standards with positive outcomes for our teams, our customers, and our company.
 
+For more background on the thinking behind our current feedback process, [watch this video](https://sites.google.com/a/pivotal.io/cloud-foundry/resources/events-recordings/tech-talks/tt_feedback).
 
 ## How to interpret "impact" and "frequency"
 
