@@ -5,7 +5,7 @@ This *public* repo contains the set of skills, organized by "area" and "P-level"
 Have questions about how to interpret all of this?  Ask your manager, or open an issue on this repo!
 
 ## Motivation
-We intent for the skills listed in this repo to describe the *impact* that a Pivot has.  We're trying to not focus too much on specific activities.
+We intend for the skills listed in this repo to describe the *impact* that a Pivot has.  We're trying to not focus too much on specific activities.
 
 This is because we want to avoid perverse incentives or "gamifiying" the performance of activities to the detriment of outcomes.  Also, there is often more than one activity, or way of doing an activity, that can lead to a particular outcome.  So we want to align our standards with positive outcomes for our teams, our customers, and our company.
 
