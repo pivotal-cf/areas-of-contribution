@@ -1,3 +1,4 @@
+<!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
 ## Cloud Foundry Domain Expertise
 
 You understand the CF Products: How they work together, how they work with the larger ecosystem of non-CF Products. You can navigate the CF system and its engineering teams on a broad level, and know which areas to consider in problem-solving.

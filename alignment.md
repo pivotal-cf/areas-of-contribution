@@ -1,3 +1,4 @@
+<!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
 ## Alignment and Adaptability
 
 You take on the most important challenge with an open mind; to what degree are you willing and capable to take on the challenge that the organization would find the most impactful, even if it's not your first choice. You actively consider how you can best help the organization, and work with leadership to align your strengths and goals with important challenges. You improve leadership's visibility into difficult problems while engaging positively in solving them.

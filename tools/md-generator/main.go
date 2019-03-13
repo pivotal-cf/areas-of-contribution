@@ -41,7 +41,8 @@ func main() {
 	}
 }
 
-const skillAreaTemplate = `## {{.Title}}
+const skillAreaTemplate = `<!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
+## {{.Title}}
 
 {{.Description}}
 

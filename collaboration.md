@@ -1,3 +1,4 @@
+<!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
 ## Collaboration
 
 You communicate clearly, proactively, and kindly. You initiate the communication in challenging situations. You behave in a way that ensures safety, inclusion, and recognition of fellow pivots. Your behavior leaves space for others to speak, and to disagree with your views. You contribute positively to our culture.
