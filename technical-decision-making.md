@@ -1,3 +1,4 @@
+<!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
 ## Technical Decision-Making
 
 Ability to weigh several factors when making technical decisions. Some factors that could be considered are maintainability, security implications, performance implications, effects on other consumers, extensibility and adaptability of system, etc.

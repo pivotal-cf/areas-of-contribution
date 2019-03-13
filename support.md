@@ -1,3 +1,4 @@
+<!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
 ## Support
 
 Passion for supporting our customers on their PCF journey, and ability to approach support issues with a customer-focussed mindset. You are able to handle interrupt-driven and exploratory work (e.g. questions on slack, on-call escalations, participation in cross-team meetings.) You ask relevant questions about an issue, figuring out what a customer needs to move forward, and drive it to resolution. You can communicate what you know respectfully to different audiences. You can also share what you still don’t know, and help identify the steps to learn more. You can apply your acquired CF knowledge on the fly, and are able to explore creative solutions to help meet the customer midway.

@@ -1,3 +1,4 @@
+<!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
 ## Technical Execution
 
 You can be depended upon to pick up a story from the backlog, do it well (quickly / dependably / transparently / correctly / valuably) and drive it to delivery. You ramp up quickly on new teams, and are soon productive as a solo or pair.

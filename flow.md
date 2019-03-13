@@ -1,3 +1,4 @@
+<!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
 ## Flow
 
 You understand how software makes it from an engineering team to the customer, from start to finish. You can evaluate and explain the "flow" of work through this system, and identify bottlenecks. You can help your team prioritize these bottlenecks, optimizing for a positive impact on downstream consumers or for customers. You use your flow knowledge to advise teams surrounding yours, and to avoid blocking their work.
