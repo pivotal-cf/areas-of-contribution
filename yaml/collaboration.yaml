@@ -1,0 +1,44 @@
+---
+title: Collaboration
+
+description: |
+  You communicate clearly, proactively, and kindly. You initiate the communication in challenging situations. You behave in a way that ensures safety, inclusion, and recognition of fellow pivots. Your behavior leaves space for others to speak, and to disagree with your views. You contribute positively to our culture.
+
+  *One example of success in this area*: One of your teammates has a frequent habit of interrupting others in meetings, especially when they’re excited about an idea. You find them after a meeting, and directly but kindly deliver this feedback. They don’t know what you’re talking about. You ask if it would be okay to stop them next time this happens. They agree. In the future, the team feels comfortable with giving feedback about interrupting in meetings in the moment.
+
+skill_levels:
+- level: P1
+  skills:
+  - "Communicates clearly and kindly with team mates"
+  - "Actively leaves space for others to share their ideas"
+  - "Is conscious and respectful of team's agreements (eg: core working hours)"
+  - "Communicates with the intent to learn, and creates a safe space for others to disagree"
+  - "Pairs easily/successfully with most Pivots and/or teams"
+
+- level: P2
+  skills:
+  - "Actively works to build a more inclusive team."
+  - "Takes responsibility for their mistakes and/or misunderstandings, and can then focus on future improvements at the personal or team level."
+  - "Asks questions with humility, adding context about their existing knowledge or uncertainty."
+  - "Is self-aware and seeks feedback from their pair in the moment to ensure they are aligned"
+  - "Initiates cross team communication when necessary"
+
+- level: P3
+  skills:
+  - "Sets an example for clear and kind communication in a disagreement."
+  - "Openly reflects on the impact of their own behaviour and makes improvements."
+  - "Recognizes and gives T.A.S.K feedback about exclusionary behaviour"
+  - "Tailors their communication style to collaborate well with a variety of personalities."
+  - "Fosters a healthy learning environment, by teaching and modeling a blameless culture. e.g. Facilitates growth-oriented discussion following a mistake or fire, encourages teammates to share their own growth goals"
+  - "Brings teams together by promoting cross team collaboration (including orchestrating logistics, facilitating group meetings)"
+
+- level: P4
+  skills:
+  - "Strongly facilitates decision-making where there are several conflicting viewpoints"
+  - "Knows their blind spots and actively works towards managing them"
+  - "Skillfully speaks up to address exclusionary behaviour in the moment"
+  - "Coaches Pivots to recognize areas which could be benefitted by cross team collaboration"
+
+- level: P5
+  skills:
+  - "Is a source of guidance across Pivotal in areas of productively managing personal conflict and/or contention"
