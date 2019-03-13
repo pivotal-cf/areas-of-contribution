@@ -1,0 +1,38 @@
+---
+title: Flow
+
+description: |
+  You understand how software makes it from an engineering team to the customer, from start to finish. You can evaluate and explain the "flow" of work through this system, and identify bottlenecks. You can help your team prioritize these bottlenecks, optimizing for a positive impact on downstream consumers or for customers. You use your flow knowledge to advise teams surrounding yours, and to avoid blocking their work.
+
+  *One example of success in this area*: An investigation in your backlog has been blocked for days. Your teammates have made a valiant effort, but no one has found a way forward. You find a way to implement the feature without needing the blocking dependency. You outline a plan for integrating the dependency once it’s ready, and talk to the upstream team to finalize it.
+
+skill_levels:
+- level: P1
+  skills:
+  - "Is learning about how their team's artifacts flow to the customer (eg: release process, CI pipelines, dependencies)"
+
+- level: P2
+  skills:
+  - "Recognizes symptoms of reduced flow on their team (eg: persistently red CI, flaky tests, manual release process)"
+  - "Cognizant of blockers (eg: blocked stories, CI, releases) and work with the team to unblock them"
+  - "Resolves flow-related pain using modifications to existing process or tools"
+
+- level: P3
+  skills:
+  - "Recognizes when and why team has reduced flow; surfaces the feedback to team leadership and at team retros"
+  - "Frames symptoms of reduced flow in terms of customer impact"
+  - "Can smoothly integrate upstream depedencies into team's work with little impact to team's rate of delivery"
+  - "Ensures that their team is communicating clearly so as to avoid blocking others when possible"
+  - "Adapts to changes in volumes of prioritized work so as to enable smooth delivery (eg: can work with PM to plan for tracks that can be parallelized, or unified to increase/decrease throughput)"
+  - "Reflects on a team's release process and continually evolves it to improve flow over time"
+  - "Can articulate the impact of breaking changes to downstream teams and to customers"
+  - "Breaks out of the existing tools or processes when necessary, to reframe and fix a flow issue"
+
+- level: P4
+  skills:
+  - "Recognizes systemic bottlenecks in delivering value to customers"
+  - "Can identify and implement processes that provide the team ongoing feedback on flow"
+  - "Intervenes to address systemic bottlenecks in delivering value to customers, using a variety of skill areas (e.g. technical execution/process)"
+  - "Has knowledge of flow across the organization, and proactively shares context to unblock teams."
+  - "Applies engineering principles (rather than manual processes/toil) to improve flow"
+  - "Can coordinate, execute, deliver to customer on complex integrations amongst multiple teams"
