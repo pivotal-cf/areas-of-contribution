@@ -21,7 +21,7 @@ For more background on the thinking behind our current feedback process, [watch 
 - Have you observed a pivot do this? 
   - Don't check anything unless you have
   - When you observed this: 
-    - Did it required prompting? Check "Only when asked"
+    - Did it require prompting? Check "Only when asked"
     - Is consistent & unprompted? Check "Appropriately"
     - Have they sometimes needed prompting? Check "Occassionaly"
     - Is it more nuanced? Use a combination of these boxes
@@ -32,7 +32,7 @@ For more background on the thinking behind our current feedback process, [watch 
   - Leave **impact** blank and use **frequency** only if it isn't clear or if they haven't yet made a difference
   - Did it improve something? Check "High"
   - Did something get worse? Check "Low"
-  - Is there room to make more of a difference than it did? Check both boxes.
+  - Is there room to make more of a difference than it did? Check both boxes
   - Please ensure managers have enough context; via the space in the form or shared directly with them
 
 ## Want to contribute?
