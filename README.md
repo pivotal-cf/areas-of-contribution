@@ -14,17 +14,16 @@ For more background on the thinking behind our current feedback process, [watch 
 
 ## How to interpret "frequency" & "impact"
 
-**Frequecy** & **impact** are similar to [outputs & outcomes](https://hbr.org/2012/11/its-not-just-semantics-managing-outcomes). **Frequency** is important, it describes the consistency of a pivot's efforts. **Impact** is related and perhaps more important, it speaks to whether these efforts were effective.
+All checkboxes are optional. Only check boxes for what's been observed and is applicable.
 
 ### FREQUENCY
 
-- Have you observed a pivot do this? 
+- Have you observed a pivot do this?
   - Don't check anything unless you have
   - When you observed this: 
     - Did it require prompting? Check "Only when asked"
     - Is consistent & unprompted? Check "Appropriately"
     - Have they sometimes needed prompting? Check "Occassionaly"
-    - Is it more nuanced? Use a combination of these boxes
 
 ### IMPACT
 
@@ -34,6 +33,8 @@ For more background on the thinking behind our current feedback process, [watch 
   - Did something get worse? Check "Low"
   - Is there room to make more of a difference than it did? Check both boxes
   - Please ensure managers have enough context; via the space in the form or shared directly with them
+
+**Frequecy** & **impact** are similar to [outputs & outcomes](https://hbr.org/2012/11/its-not-just-semantics-managing-outcomes). **Frequency** is important, it describes the consistency of a pivot's efforts. **Impact** is related and perhaps more important, it speaks to whether these efforts were effective.
 
 ## Want to contribute?
 **This repo is under active construction** and we welcome your help in improving
