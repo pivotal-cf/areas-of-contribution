@@ -22,7 +22,7 @@ All checkboxes are optional. Only check boxes for what's been observed and is ap
   - Don't check anything unless you have
   - When you observed this: 
     - Did it require prompting? Check "Only when asked"
-    - Is consistent & unprompted? Check "Appropriately"
+    - Is it consistent & unprompted? Check "Appropriately"
     - Have they sometimes needed prompting? Check "Occassionaly"
 
 ### IMPACT
@@ -34,7 +34,7 @@ All checkboxes are optional. Only check boxes for what's been observed and is ap
   - Is there room to make more of a difference than it did? Check both boxes
   - Please ensure managers have enough context; via the space in the form or shared directly with them
 
-**Frequecy** & **impact** are similar to [outputs & outcomes](https://hbr.org/2012/11/its-not-just-semantics-managing-outcomes). **Frequency** is important, it describes the consistency of a pivot's efforts. **Impact** is related and perhaps more important, it speaks to whether these efforts were effective.
+**Frequency** & **impact** are similar to [outputs & outcomes](https://hbr.org/2012/11/its-not-just-semantics-managing-outcomes). **Frequency** is important, it describes the consistency of a pivot's efforts. **Impact** is related and perhaps more important, it speaks to whether these efforts were effective.
 
 ## Want to contribute?
 **This repo is under active construction** and we welcome your help in improving
