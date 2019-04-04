@@ -1,0 +1,866 @@
+skills:
+- id: s68fe42dd
+  description: Asks relevant questions on stories
+  area: technical-execution
+  level: p1
+- id: s11573987
+  description: Provides basic input into pair's progress
+  area: technical-execution
+  level: p1
+- id: s63dd6893
+  description: Provides coherent and informative updates at standup
+  area: technical-execution
+  level: p1
+- id: sabc63399
+  description: Actively participates in pointing well-defined stories
+  area: technical-execution
+  level: p1
+- id: saaa0d80d
+  description: Is comfortable with rotating pairs frequently
+  area: technical-execution
+  level: p1
+- id: se5ed278d
+  description: Is comfortable with carrying context on well-defined stories
+  area: technical-execution
+  level: p1
+- id: s1f14e0c2
+  description: 'Clarifies product requirements on stories, when necessary.'
+  area: technical-execution
+  level: p1
+- id: se5764d93
+  description: 'Able to lead a pair on well-defined tracks of work; can solo on well-defined tracks, if needed'
+  area: technical-execution
+  level: p2
+- id: se497d631
+  description: 'Participates in writing acceptance criteria for well-scoped stories, when necessary.'
+  area: technical-execution
+  level: p2
+- id: s0bc6a381
+  description: Fits engineering chore work into existing feature work
+  area: technical-execution
+  level: p2
+- id: s78d89952
+  description: >-
+    Understands what changes need to be made, and how to execute on them in order to complete a
+    story
+  area: technical-execution
+  level: p2
+- id: s2be43833
+  description: Discusses the balance of short term execution with long term health
+  area: technical-execution
+  level: p2
+- id: s43584ea9
+  description: Recognizes and discusses potential anti-patterns
+  area: technical-execution
+  level: p2
+- id: scf9cdd7c
+  description: Can onboard pairs into well-defined stories
+  area: technical-execution
+  level: p2
+- id: s8bd0c276
+  description: 'Able to lead a pair on all tracks of work; can solo on any story in the backlog, if needed'
+  area: technical-execution
+  level: p3
+- id: s70f975f0
+  description: De-risks and makes progress on tracks with uncertain implementation
+  area: technical-execution
+  level: p3
+- id: s0b9d5f23
+  description: Works with PM + Design to scope epics to buildable blocks
+  area: technical-execution
+  level: p3
+- id: s7d8c80a2
+  description: Leads or anchors well-defined tracks of work.
+  area: technical-execution
+  level: p3
+- id: s68c5ea1f
+  description: 'Notices anti-patterns, can articulate reasoning and suggest ways to course-correct.'
+  area: technical-execution
+  level: p3
+- id: s8618782c
+  description: Consistently follows up on tasks/communication from stories
+  area: technical-execution
+  level: p3
+- id: s18eaa3cb
+  description: Can ramp up quickly to become productive on most CF teams
+  area: technical-execution
+  level: p3
+- id: s7ce63cd6
+  description: >-
+    Identifies long-running/systemic technical problems (eg: testing anti-patterns, poor code
+    health) affecting the team and drives intervention
+  area: technical-execution
+  level: p4
+- id: s82ded198
+  description: >-
+    Is focused on solving customer problems, and works with PM+Design to translate customer problems
+    to well-defined stories for the team
+  area: technical-execution
+  level: p4
+- id: s48a8354d
+  description: >-
+    Provides technical leadership at inceptions (eg: holds context around multiple cross-cutting
+    tracks of work, and understands how to use that context to keep the inception focussed.)
+  area: technical-execution
+  level: p4
+- id: s738d04f8
+  description: >-
+    Able to recognize what would help improve technical execution on teams, and successfully fills
+    in that role. (Eg: notices PM needs coaching, and steps up to enable PM, etc.)
+  area: technical-execution
+  level: p4
+- id: s099e88af
+  description: 'Teaches team members how to execute well on stories (eg: teaches definition of done for stories)'
+  area: technical-execution
+  level: p4
+- id: s6bc8b7ee
+  description: Teaches technical concepts and show team members how it is applicable to their product
+  area: technical-execution
+  level: p4
+- id: sf53e8688
+  description: >-
+    Can navigate their way through legacy systems and improve throughput of the team (eg: notices
+    complex code paths are slowing down feature delviery, facilitates conversations with the team on
+    how to simplify them, gets buy-in from PM+leadership to prioritize this work, drives it to
+    completion with the team.)
+  area: technical-execution
+  level: p4
+- id: s32c60abf
+  description: >-
+    Follows along with existing engineering process on teams (eg: TDD, pairing, CI and Tracker
+    discipline, etc.)
+  area: engineering-process
+  level: p1
+- id: sdcf78a61
+  description: Understands and explains the importance of improving feedback loops
+  area: engineering-process
+  level: p2
+- id: s16c62110
+  description: >-
+    Makes small tweaks to engineering process on their team, in response to retro items or team
+    discussion.
+  area: engineering-process
+  level: p2
+- id: saaa809db
+  description: Can onboard new team members on existing processes
+  area: engineering-process
+  level: p2
+- id: s6186a3e4
+  description: Understands and explains why balanced teams and balanced decision-making is important
+  area: engineering-process
+  level: p2
+- id: s73fa8889
+  description: Can explain parts of our engineering process in terms of improving feedback loops
+  area: engineering-process
+  level: p2
+- id: sa2bb47af
+  description: Shows discipline in upholding the team's engineering process
+  area: engineering-process
+  level: p2
+- id: sa5a08109
+  description: Provides feedback to teammates.
+  area: engineering-process
+  level: p2
+- id: s101a9b0a
+  description: >-
+    Understands and explains the XP/Agile principles behind specific practices of team's engineering
+    process
+  area: engineering-process
+  level: p3
+- id: sdd43d7d3
+  description: Identifies problems on teams that can be fixed by changing engineering process
+  area: engineering-process
+  level: p3
+- id: sddec5a15
+  description: 'Advocates for a balanced team, and facilitates balanced decision-making'
+  area: engineering-process
+  level: p3
+- id: s541080d9
+  description: Actively works to improve engineering process and feedback loops on teams
+  area: engineering-process
+  level: p3
+- id: sb9b9c444
+  description: 'Provides T.A.S.K feedback to teammates, that helps teammates grow'
+  area: engineering-process
+  level: p3
+- id: scd0782cd
+  description: Provides challenging feedback (kindly) and coaches teammates to change their behaviour
+  area: engineering-process
+  level: p4
+- id: s2f140e17
+  description: Teaches our engineering process to new Pivots and relates it back to XP/Agile principles
+  area: engineering-process
+  level: p4
+- id: s4963995c
+  description: 'Recommends and proliferates team-wide changes to engineering process, to fix team pain-points.'
+  area: engineering-process
+  level: p4
+- id: sbf6189d2
+  description: Adapts to different flavors of process and ties it back to XP/Agile principles
+  area: engineering-process
+  level: p4
+- id: s61349275
+  description: Is an exemplary role-model for practicing and facilitating balanced decision-making
+  area: engineering-process
+  level: p4
+- id: s123806e6
+  description: Continually works to evolve the engineering process on their teams
+  area: engineering-process
+  level: p4
+- id: sd9960cda
+  description: >-
+    Innovates on engineering process and evangelizes that change across the org. Follows through by
+    helping relevant and interested teams adopt it successfully
+  area: engineering-process
+  level: p5
+- id: s43a43306
+  description: >-
+    Shows curiosity about the product their team is building (eg: how it helps customers, who are
+    the downstream consumers, how to downstream consumers rely on it)
+  area: cf-domain-expertise
+  level: p1
+- id: s523cd8bf
+  description: >-
+    Shows curiosity about bigger picture (boxes and lines) of CF (eg: watched videos from Cloud
+    Foundry Summit, reads materials relating to technical concepts when presented by colleagues)
+  area: cf-domain-expertise
+  level: p1
+- id: s31e3733f
+  description: Has working knowledge about the product their team is building.
+  area: cf-domain-expertise
+  level: p2
+- id: s2742e1ff
+  description: Is learning about how other teams/downstream consumers/customers use their product
+  area: cf-domain-expertise
+  level: p2
+- id: s585ae3d6
+  description: Relates stories in the backlog to downstream consumers it would affect
+  area: cf-domain-expertise
+  level: p2
+- id: scc522ffa
+  description: Diagnoses issues that involve interactions with multiple CF components
+  area: cf-domain-expertise
+  level: p2
+- id: sf7158cd3
+  description: Can explain boxes-and-lines version of their team's product
+  area: cf-domain-expertise
+  level: p2
+- id: s1a66ceeb
+  description: >-
+    Has sound knowledge of the team's product(s) and its downstream consumers, and can be counted
+    upon to represent the team's interests.
+  area: cf-domain-expertise
+  level: p3
+- id: s7664d55c
+  description: >-
+    Preemtively identifies dependencies/repercussions of features on downstream consumers and past
+    releases
+  area: cf-domain-expertise
+  level: p3
+- id: s8a0abd9f
+  description: >-
+    Provides context on their team for historical decisions, features in past releases, and their
+    team's domain
+  area: cf-domain-expertise
+  level: p3
+- id: s4e20b350
+  description: >-
+    Can explain boxes-and-lines version of CF and is able to provide a more detailed view on CF
+    components
+  area: cf-domain-expertise
+  level: p3
+- id: sc6072661
+  description: 'Can ramp up a new PM on team domain, or fill in for their PM for short periods of time.'
+  area: cf-domain-expertise
+  level: p3
+- id: s1baf6c7c
+  description: >-
+    Has working knowledge of an area of CF (eg: the BOSH ecosystem, the Platform, Logging and
+    Metrics)
+  area: cf-domain-expertise
+  level: p4
+- id: s2e251366
+  description: >-
+    Preemptively identifies dependencies/repercussions of an epic to all consumers within a domain
+    area; can suggest changes to required components to resolve it
+  area: cf-domain-expertise
+  level: p4
+- id: s46177acd
+  description: Teaches Pivots on their team about a particular CF domain area
+  area: cf-domain-expertise
+  level: p4
+- id: s51c43be9
+  description: Leverages their knowledge of related domain concepts to better the product
+  area: cf-domain-expertise
+  level: p4
+- id: s66f23c3e
+  description: >-
+    Can explain how a CF domain area has evolved over time (including familiarity with features in
+    past releases)
+  area: cf-domain-expertise
+  level: p4
+- id: sa467f450
+  description: Takes measures to dissipate their CF domain knowledge with a goal of empowering their team
+  area: cf-domain-expertise
+  level: p5
+- id: s8d1ab0e6
+  description: Communicates clearly and kindly with team mates
+  area: collaboration
+  level: p1
+- id: s727682c5
+  description: Actively leaves space for others to share their ideas
+  area: collaboration
+  level: p1
+- id: s4ab0d417
+  description: 'Is conscious and respectful of team''s agreements (eg: core working hours)'
+  area: collaboration
+  level: p1
+- id: se3dbbe5a
+  description: 'Communicates with the intent to learn, and creates a safe space for others to disagree'
+  area: collaboration
+  level: p1
+- id: s5a38752f
+  description: Pairs easily/successfully with most Pivots and/or teams
+  area: collaboration
+  level: p1
+- id: sdc8485fd
+  description: Actively works to build a more inclusive team.
+  area: collaboration
+  level: p2
+- id: s384d71c7
+  description: >-
+    Takes responsibility for their mistakes and/or misunderstandings, and can then focus on future
+    improvements at the personal or team level.
+  area: collaboration
+  level: p2
+- id: sc13dc8ef
+  description: 'Asks questions with humility, adding context about their existing knowledge or uncertainty.'
+  area: collaboration
+  level: p2
+- id: s7e3b9a9c
+  description: Is self-aware and seeks feedback from their pair in the moment to ensure they are aligned
+  area: collaboration
+  level: p2
+- id: s15d4bddd
+  description: Initiates cross team communication when necessary
+  area: collaboration
+  level: p2
+- id: s9cff8008
+  description: Sets an example for clear and kind communication in a disagreement.
+  area: collaboration
+  level: p3
+- id: s40b9df88
+  description: Openly reflects on the impact of their own behaviour and makes improvements.
+  area: collaboration
+  level: p3
+- id: sa7a184a4
+  description: Recognizes and gives T.A.S.K feedback about exclusionary behaviour
+  area: collaboration
+  level: p3
+- id: s01c1c919
+  description: Tailors their communication style to collaborate well with a variety of personalities.
+  area: collaboration
+  level: p3
+- id: s106fd6f1
+  description: >-
+    Fosters a healthy learning environment, by teaching and modeling a blameless culture. e.g.
+    Facilitates growth-oriented discussion following a mistake or fire, encourages teammates to
+    share their own growth goals
+  area: collaboration
+  level: p3
+- id: sdfe8ddb8
+  description: >-
+    Brings teams together by promoting cross team collaboration (including orchestrating logistics,
+    facilitating group meetings)
+  area: collaboration
+  level: p3
+- id: sf5228f25
+  description: Strongly facilitates decision-making where there are several conflicting viewpoints
+  area: collaboration
+  level: p4
+- id: s841ab9ce
+  description: Knows their blind spots and actively works towards managing them
+  area: collaboration
+  level: p4
+- id: s8e42e988
+  description: Skillfully speaks up to address exclusionary behaviour in the moment
+  area: collaboration
+  level: p4
+- id: s5d23e9c1
+  description: Coaches Pivots to recognize areas which could be benefitted by cross team collaboration
+  area: collaboration
+  level: p4
+- id: s33539624
+  description: >-
+    Is a source of guidance across Pivotal in areas of productively managing personal conflict
+    and/or contention
+  area: collaboration
+  level: p5
+- id: s288b2de4
+  description: >-
+    Shows curiosity in learning about an anchor’s role on their team, and is ready to shadow their
+    team anchor
+  area: project-leadership
+  level: p1
+- id: s50e6d81a
+  description: Volunteers for facilitating team meetings
+  area: project-leadership
+  level: p1
+- id: sf596bf5b
+  description: >-
+    Discusses team “things” with their anchor (eg: team process, team health/morale, product,
+    architecture)
+  area: project-leadership
+  level: p1
+- id: s1e24c45c
+  description: >-
+    Is responsible for creating and upholding team discipline. This includes setting an example of
+    following team processes themselves, holding other team members accountable, and fostering a
+    culture of providing open and honest feedback about team’s artifacts (product, repos, process.)
+  area: project-leadership
+  level: p2
+- id: s2e68f242
+  description: >-
+    Continually reflects on ways to reduce the tribal knowledge on their team, and evolves the on
+    boarding process over time
+  area: project-leadership
+  level: p2
+- id: sa5a9cf23
+  description: Provides T.A.S.K feedback to LL/PL about team health and morale
+  area: project-leadership
+  level: p2
+- id: s5c7c3275
+  description: 'Pairs with PM+Design on technical solutioning (eg: in pre-IPM, preparing for inception, etc.)'
+  area: project-leadership
+  level: p2
+- id: sb0340076
+  description: Provides guidance to the engineering team on execution towards a solution
+  area: project-leadership
+  level: p2
+- id: se884f173
+  description: >-
+    Can provide technical leadership on their team, and are able to share their technical vision
+    with team members
+  area: project-leadership
+  level: p2
+- id: sea0344eb
+  description: >-
+    Able to anchor small/medium-sized teams with well-defined product priorities and technical
+    direction
+  area: project-leadership
+  level: p2
+- id: se72b2571
+  description: >-
+    Able to anchor teams with emerging product priorities and technical direction. They are able to
+    help identify unknowns, and work with leadership to resolve them.
+  area: project-leadership
+  level: p3
+- id: s94c92c62
+  description: Able to anchor larger teams
+  area: project-leadership
+  level: p3
+- id: s354737e9
+  description: >-
+    Ensures they are not a single point of failure by effectively delegating responsibilities and
+    sharing knowledge/context
+  area: project-leadership
+  level: p3
+- id: s05510984
+  description: >-
+    Pairs with PM+Design to focus team’s effort more holistically towards solving customer problems
+    (eg: participating in user interviews to learn about their needs, and helping PM+Design shape
+    workflows that are technically feasible and solve a customer pain point)
+  area: project-leadership
+  level: p3
+- id: sc9ec0db5
+  description: >-
+    Advocates for the needs of all roles/members of the team, and evolves team habits to create an
+    inclusive environment on their team
+  area: project-leadership
+  level: p3
+- id: s1d91af9d
+  description: >-
+    Has a general awareness of work in progress; is able to catch missteps in real time and provide
+    kind feedback to correct it
+  area: project-leadership
+  level: p3
+- id: s9ba18b28
+  description: >-
+    Is a safety-net for the team, and is able to intervene when they see tasks/priorities getting
+    dropped
+  area: project-leadership
+  level: p3
+- id: s03ef2154
+  description: Identifies systemic/long-running issues on their team and are able to intervene to resolve them
+  area: project-leadership
+  level: p4
+- id: s82eeb4c0
+  description: >-
+    Works with leadership to establish a set of “prioritized skills” and are able to create an
+    environment on their team where team members can grow those skills
+  area: project-leadership
+  level: p4
+- id: s28160139
+  description: >-
+    Can delegate responsibilities to more junior team members and guide them through to completion
+    (including providing stretch assignments)
+  area: project-leadership
+  level: p4
+- id: see53df13
+  description: Works with LL/manager to help team members grow (includes providing feedback and coaching)
+  area: project-leadership
+  level: p4
+- id: sab7cbcc7
+  description: >-
+    Able to lead teams with long-running/systemic problems (eg: intra-team conflict, tech debt, cons
+    lifting product priorities) through change
+  area: project-leadership
+  level: p4
+- id: s16662d4d
+  description: >-
+    Aware of interfaces and interactions of their team with other teams, and work with leadership to
+    improve them over time
+  area: project-leadership
+  level: p4
+- id: sb2e0622c
+  description: >-
+    Promotes/facilitates balanced decision-making on the team by demonstrating awareness of customer
+    problems and sharing that with team members on a story level
+  area: project-leadership
+  level: p4
+- id: s6f54275a
+  description: >-
+    Volunteers for and is curious about stories/chores in the backlog that are important but less
+    interesting
+  area: alignment
+  level: p1
+- id: sa98d5f18
+  description: >-
+    Volunteers for tedious/unglamorous but necessary tasks, such as chores/stories/action
+    items/support tickets/open GitHub issues, and drives them to completion.
+  area: alignment
+  level: p2
+- id: s99eeba20
+  description: >-
+    Responds to allocations changes by striving to understand the new team’s needs and context in
+    the organization.
+  area: alignment
+  level: p2
+- id: scdef41a3
+  description: 'Contributes to previous decisions on a story, without disregarding previous work'
+  area: alignment
+  level: p2
+- id: s1398f33b
+  description: 'When asked, gives feedback to team leadership about less-than-ideal team experiences.'
+  area: alignment
+  level: p2
+- id: sd0c89519
+  description: >-
+    When presented with a less-desired but important project, can adapt their skills and make a
+    positive impact on the team.
+  area: alignment
+  level: p3
+- id: s91817682
+  description: Contributes positively to team decisions/artifacts that they would have done differently
+  area: alignment
+  level: p3
+- id: s480b81f7
+  description: >-
+    Actively surfaces less-than-ideal team experiences (e.g. tension during inception, fears
+    surrounding upcoming release) to team leadership and can be coached to resolve them.
+  area: alignment
+  level: p3
+- id: s0ce4e4f4
+  description: Can identify useful context to assess team health.
+  area: alignment
+  level: p3
+- id: s30cf3cb9
+  description: >-
+    Frames less-interesting but high-priority work to highlight the value and learning-opportunity,
+    improving the entire team’s outlook on that work.
+  area: alignment
+  level: p4
+- id: s795d0bec
+  description: >-
+    Engages deeply with difficult, less-glamorous challenges and transforms them to be more
+    desirable and actionable.
+  area: alignment
+  level: p4
+- id: sb975bf39
+  description: >-
+    Is aligned with the priorities of the organization, and approaches their team allocation as a
+    collaborative effort with leadership.
+  area: alignment
+  level: p4
+- id: sac5667aa
+  description: Adapts their personal growth and contributions to the organization's needs.
+  area: alignment
+  level: p4
+- id: s7ea67cc8
+  description: Makes sustainable progress towards current goals by continuously building on legacy codebases
+  area: alignment
+  level: p4
+- id: s53ca6520
+  description: >-
+    Surfaces uncomfortable issues affecting the team in a kind, honest, and direct manner; keeps
+    leadership in the loop while working to resolve the issues.
+  area: alignment
+  level: p4
+- id: sa62d5252
+  description: Responds with engagement to interrupts; can enlist help
+  area: support
+  level: p1
+- id: s3d428875
+  description: Explains their suggestions and their approach to an interrupt or support issue.
+  area: support
+  level: p1
+- id: s6efde109
+  description: Makes forward progress on most interrupts
+  area: support
+  level: p2
+- id: s3be10608
+  description: Maintains communciation feedback loop with involved parties
+  area: support
+  level: p2
+- id: s5f8a1d49
+  description: >-
+    Escalates to leadership when needed, so leadership can involve the right folks to help with the
+    issue. 
+  area: support
+  level: p2
+- id: s4305fbd5
+  description: Resolves familiar issues when encountered again
+  area: support
+  level: p2
+- id: sdd987370
+  description: Assesses interrupts and can identify what someone is really asking for
+  area: support
+  level: p3
+- id: sd47e668e
+  description: 'Prioritizes interrupts, with support from stakeholders as needed'
+  area: support
+  level: p3
+- id: s8a9c1f16
+  description: Identifies and pulls in the right people to help with the interrupt
+  area: support
+  level: p3
+- id: sf8f39d77
+  description: Onboards new team members on existing interrupt practices
+  area: support
+  level: p3
+- id: s41161ed0
+  description: >-
+    Approaches conversations about customer constraints/culture/IT practices with a positive
+    attitude and desire to understand
+  area: support
+  level: p3
+- id: sd380cc57
+  description: 'Recognizes patterns in interrupts, and channels that feedback to drive product improvements'
+  area: support
+  level: p4
+- id: s6e65c9f7
+  description: Continually assesses team's support load and evolves ways to reduce it / make it easier
+  area: support
+  level: p4
+- id: s857eb3e9
+  description: >-
+    Leads support conversations / resolution in high-stakes situations (e.g. angry customers, data
+    loss, etc.)
+  area: support
+  level: p4
+- id: s4d08da96
+  description: Maintains context and switch between different to resolve an interrupt
+  area: support
+  level: p4
+- id: s9212b714
+  description: >-
+    Understands support as a first-class feature of the product; shapes product definition based on
+    that understanding
+  area: support
+  level: p5
+- id: s3d0febcb
+  description: >-
+    Rapidly context-switches and explores uncertain / complex support issues. Where valuable, takes
+    the time to articulate the approaches taken and trade-offs of each one.
+  area: support
+  level: p5
+- id: see958bb8
+  description: Teaches others how to explore in an unknown/unfamiliar (customer) environment
+  area: support
+  level: p5
+- id: sf7b1f46b
+  description: 'Makes technical decisions, resulting in features that work to complete a story.'
+  area: technical-decision-making
+  level: p1
+- id: s2f3f187c
+  description: >-
+    Follows along with their pair and report to other teammates on the reasons for certain technical
+    decisions.
+  area: technical-decision-making
+  level: p1
+- id: s9534cdd6
+  description: Observes and follows existing patterns/practices on the team.
+  area: technical-decision-making
+  level: p1
+- id: sb3dee7be
+  description: ' Surfaces and discusses various factors (outlined in P3+) when approaching a technical decision, with support from other pivots to make the final decision. '
+  area: technical-decision-making
+  level: p2
+- id: sb02977ca
+  description: Makes sound technical decisions that conform to the team's existing architecture or vision.
+  area: technical-decision-making
+  level: p2
+- id: sedef0230
+  description: >-
+    Factors in maintenance/impact on feedback loops/impact on readbility and onboarding as parameter
+    when making technical decisions
+  area: technical-decision-making
+  level: p3
+- id: scb908ff1
+  description: Factors in support as parameter when making technical decisions
+  area: technical-decision-making
+  level: p3
+- id: sd4d69661
+  description: Factors in performance as a parameter when making technical decisions
+  area: technical-decision-making
+  level: p3
+- id: s47613e34
+  description: Factors in extensibility as parameter when making technical decisions
+  area: technical-decision-making
+  level: p3
+- id: sf156b403
+  description: Factors in security as parameter when making technical decisions
+  area: technical-decision-making
+  level: p3
+- id: s3656ce60
+  description: Factors in cost of change as a parameter when making technical decisions
+  area: technical-decision-making
+  level: p3
+- id: sbeaf6212
+  description: >-
+    Able to recognize risks of their proposed approaches when there are underlying unknowns; able to
+    work with PM/leadership/experienced engineers to mitigate the risks and make a technical
+    decision that moves the team forward
+  area: technical-decision-making
+  level: p3
+- id: s5bef4320
+  description: >-
+    Able to recognize when new information emerges that requires changes in existing technical
+    design; able to work with PM/leadership/experienced engineers to adapt existing technical
+    decisions to the new information
+  area: technical-decision-making
+  level: p3
+- id: s2d37a3d8
+  description: Takes an outcome-oriented mindset to technical decision-making.
+  area: technical-decision-making
+  level: p4
+- id: s02ef36a4
+  description: Can articulate the tradeoffs and parameters (with priorities) that drove a technical decision
+  area: technical-decision-making
+  level: p4
+- id: s6a5df59d
+  description: >-
+    Bring others along on the decision-making journey, and teaches team members how to prioritize
+    approaches and weigh-in several factors
+  area: technical-decision-making
+  level: p4
+- id: s99213212
+  description: >-
+    Able to change course on decisions readily (in attitude) and easily (in artifacts produced) as
+    new information emerges
+  area: technical-decision-making
+  level: p4
+- id: s183ddbda
+  description: Able to navigate uncertainty in underlying technical choices when making technical decisions
+  area: technical-decision-making
+  level: p4
+- id: s83b7e358
+  description: >-
+    Able to explore options and make technical decisions (without painting project in the corner)
+    when there are unknowns in the domain
+  area: technical-decision-making
+  level: p4
+- id: s9ed2f691
+  description: >-
+    Is learning about how their team's artifacts flow to the customer (eg: release process, CI
+    pipelines, dependencies)
+  area: flow
+  level: p1
+- id: s870da1f5
+  description: >-
+    Recognizes symptoms of reduced flow on their team (eg: persistently red CI, flaky tests, manual
+    release process)
+  area: flow
+  level: p2
+- id: s0770eb76
+  description: 'Cognizant of blockers (eg: blocked stories, CI, releases) and work with the team to unblock them'
+  area: flow
+  level: p2
+- id: s9b7013fd
+  description: Resolves flow-related pain using modifications to existing process or tools
+  area: flow
+  level: p2
+- id: s18033504
+  description: >-
+    Recognizes when and why team has reduced flow; surfaces the feedback to team leadership and at
+    team retros
+  area: flow
+  level: p3
+- id: sa01c6f23
+  description: Frames symptoms of reduced flow in terms of customer impact
+  area: flow
+  level: p3
+- id: s677418ab
+  description: >-
+    Can smoothly integrate upstream depedencies into team's work with little impact to team's rate
+    of delivery
+  area: flow
+  level: p3
+- id: s44ea1bcd
+  description: Ensures that their team is communicating clearly so as to avoid blocking others when possible
+  area: flow
+  level: p3
+- id: sf1e6dfc3
+  description: >-
+    Adapts to changes in volumes of prioritized work so as to enable smooth delivery (eg: can work
+    with PM to plan for tracks that can be parallelized, or unified to increase/decrease throughput)
+  area: flow
+  level: p3
+- id: sa1ba4b22
+  description: Reflects on a team's release process and continually evolves it to improve flow over time
+  area: flow
+  level: p3
+- id: s0d7e56a3
+  description: Can articulate the impact of breaking changes to downstream teams and to customers
+  area: flow
+  level: p3
+- id: sb9f298b6
+  description: 'Breaks out of the existing tools or processes when necessary, to reframe and fix a flow issue'
+  area: flow
+  level: p3
+- id: s92523066
+  description: Recognizes systemic bottlenecks in delivering value to customers
+  area: flow
+  level: p4
+- id: sf50da12e
+  description: Can identify and implement processes that provide the team ongoing feedback on flow
+  area: flow
+  level: p4
+- id: s79dc67e6
+  description: >-
+    Intervenes to address systemic bottlenecks in delivering value to customers, using a variety of
+    skill areas (e.g. technical execution/process)
+  area: flow
+  level: p4
+- id: sb97d0d43
+  description: 'Has knowledge of flow across the organization, and proactively shares context to unblock teams.'
+  area: flow
+  level: p4
+- id: s65806abd
+  description: Applies engineering principles (rather than manual processes/toil) to improve flow
+  area: flow
+  level: p4
+- id: s75165e27
+  description: 'Can coordinate, execute, deliver to customer on complex integrations amongst multiple teams'
+  area: flow
+  level: p4
