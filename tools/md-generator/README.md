@@ -1,10 +1,10 @@
 # md-generator
 
-A simple Go program to build the Markdown file for a skill area, given a YAML file as input.
+A simple Go program to build the Markdown docs for the skill areas
 
-Example
+Usage
 
 ```
-go run main.go ../../yaml/alignment.yaml > ../../alignment.md
+go run main.go -in ../../yaml -out ../../
 ```
 
