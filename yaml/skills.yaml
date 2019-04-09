@@ -24,7 +24,7 @@ skills:
   area: technical-execution
   level: p1
 - id: s1f14e0c2
-  description: 'Clarifies product requirements on stories, when necessary.'
+  description: 'Clarifies product requirements on stories, when necessary'
   area: technical-execution
   level: p1
 - id: se5764d93
@@ -32,7 +32,7 @@ skills:
   area: technical-execution
   level: p2
 - id: se497d631
-  description: 'Participates in writing acceptance criteria for well-scoped stories, when necessary.'
+  description: 'Participates in writing acceptance criteria for well-scoped stories, when necessary'
   area: technical-execution
   level: p2
 - id: s0bc6a381
@@ -74,7 +74,7 @@ skills:
   area: technical-execution
   level: p3
 - id: s68c5ea1f
-  description: 'Notices anti-patterns, can articulate reasoning and suggest ways to course-correct.'
+  description: 'Notices anti-patterns, can articulate reasoning and suggest ways to course-correct'
   area: technical-execution
   level: p3
 - id: s8618782c
@@ -100,7 +100,7 @@ skills:
 - id: s48a8354d
   description: >-
     Provides technical leadership at inceptions (eg: holds context around multiple cross-cutting
-    tracks of work, and understands how to use that context to keep the inception focussed.)
+    tracks of work, and understands how to use that context to keep the inception focussed)
   area: technical-execution
   level: p4
 - id: s738d04f8
@@ -120,9 +120,9 @@ skills:
 - id: sf53e8688
   description: >-
     Can navigate their way through legacy systems and improve throughput of the team (eg: notices
-    complex code paths are slowing down feature delviery, facilitates conversations with the team on
+    complex code paths are slowing down feature delivery, facilitates conversations with the team on
     how to simplify them, gets buy-in from PM+leadership to prioritize this work, drives it to
-    completion with the team.)
+    completion with the team)
   area: technical-execution
   level: p4
 - id: s32c60abf
@@ -324,17 +324,17 @@ skills:
   area: collaboration
   level: p1
 - id: sdc8485fd
-  description: Actively works to build a more inclusive team.
+  description: Actively works to build a more inclusive team
   area: collaboration
   level: p2
 - id: s384d71c7
   description: >-
     Takes responsibility for their mistakes and/or misunderstandings, and can then focus on future
-    improvements at the personal or team level.
+    improvements at the personal or team level
   area: collaboration
   level: p2
 - id: sc13dc8ef
-  description: 'Asks questions with humility, adding context about their existing knowledge or uncertainty.'
+  description: 'Asks questions with humility, adding context about their existing knowledge or uncertainty'
   area: collaboration
   level: p2
 - id: s7e3b9a9c
@@ -346,11 +346,11 @@ skills:
   area: collaboration
   level: p2
 - id: s9cff8008
-  description: Sets an example for clear and kind communication in a disagreement.
+  description: Sets an example for clear and kind communication in a disagreement
   area: collaboration
   level: p3
 - id: s40b9df88
-  description: Openly reflects on the impact of their own behaviour and makes improvements.
+  description: Openly reflects on the impact of their own behaviour and makes improvements
   area: collaboration
   level: p3
 - id: sa7a184a4
@@ -358,7 +358,7 @@ skills:
   area: collaboration
   level: p3
 - id: s01c1c919
-  description: Tailors their communication style to collaborate well with a variety of personalities.
+  description: Tailors their communication style to collaborate well with a variety of personalities
   area: collaboration
   level: p3
 - id: s106fd6f1
@@ -537,7 +537,7 @@ skills:
 - id: sa98d5f18
   description: >-
     Volunteers for tedious/unglamorous but necessary tasks, such as chores/stories/action
-    items/support tickets/open GitHub issues, and drives them to completion.
+    items/support tickets/open GitHub issues, and drives them to completion
   area: alignment
   level: p2
 - id: s99eeba20
@@ -551,13 +551,13 @@ skills:
   area: alignment
   level: p2
 - id: s1398f33b
-  description: 'When asked, gives feedback to team leadership about less-than-ideal team experiences.'
+  description: 'When asked, gives feedback to team leadership about less-than-ideal team experiences'
   area: alignment
   level: p2
 - id: sd0c89519
   description: >-
     When presented with a less-desired but important project, can adapt their skills and make a
-    positive impact on the team.
+    positive impact on the team
   area: alignment
   level: p3
 - id: s91817682
@@ -567,33 +567,33 @@ skills:
 - id: s480b81f7
   description: >-
     Actively surfaces less-than-ideal team experiences (e.g. tension during inception, fears
-    surrounding upcoming release) to team leadership and can be coached to resolve them.
+    surrounding upcoming release) to team leadership and can be coached to resolve them
   area: alignment
   level: p3
 - id: s0ce4e4f4
-  description: Can identify useful context to assess team health.
+  description: Can identify useful context to assess team health
   area: alignment
   level: p3
 - id: s30cf3cb9
   description: >-
     Frames less-interesting but high-priority work to highlight the value and learning-opportunity,
-    improving the entire team’s outlook on that work.
+    improving the entire team’s outlook on that work
   area: alignment
   level: p4
 - id: s795d0bec
   description: >-
     Engages deeply with difficult, less-glamorous challenges and transforms them to be more
-    desirable and actionable.
+    desirable and actionable
   area: alignment
   level: p4
 - id: sb975bf39
   description: >-
     Is aligned with the priorities of the organization, and approaches their team allocation as a
-    collaborative effort with leadership.
+    collaborative effort with leadership
   area: alignment
   level: p4
 - id: sac5667aa
-  description: Adapts their personal growth and contributions to the organization's needs.
+  description: Adapts their personal growth and contributions to the organization's needs
   area: alignment
   level: p4
 - id: s7ea67cc8
@@ -603,7 +603,7 @@ skills:
 - id: s53ca6520
   description: >-
     Surfaces uncomfortable issues affecting the team in a kind, honest, and direct manner; keeps
-    leadership in the loop while working to resolve the issues.
+    leadership in the loop while working to resolve the issues
   area: alignment
   level: p4
 - id: sa62d5252
@@ -619,13 +619,13 @@ skills:
   area: support
   level: p2
 - id: s3be10608
-  description: Maintains communciation feedback loop with involved parties
+  description: Maintains communication feedback loop with involved parties
   area: support
   level: p2
 - id: s5f8a1d49
   description: >-
     Escalates to leadership when needed, so leadership can involve the right folks to help with the
-    issue. 
+    issue
   area: support
   level: p2
 - id: s4305fbd5
@@ -680,8 +680,8 @@ skills:
   level: p5
 - id: s3d0febcb
   description: >-
-    Rapidly context-switches and explores uncertain / complex support issues. Where valuable, takes
-    the time to articulate the approaches taken and trade-offs of each one.
+    Rapidly context-switches and explores uncertain / complex support issues; where valuable, takes
+    the time to articulate the approaches taken and trade-offs of each one
   area: support
   level: p5
 - id: see958bb8
@@ -703,7 +703,9 @@ skills:
   area: technical-decision-making
   level: p1
 - id: sb3dee7be
-  description: ' Surfaces and discusses various factors (outlined in P3+) when approaching a technical decision, with support from other pivots to make the final decision. '
+  description: >-
+    Surfaces and discusses various factors (outlined on next page) when approaching a technical
+    decision, with support from other pivots to make the final decision.
   area: technical-decision-making
   level: p2
 - id: sb02977ca

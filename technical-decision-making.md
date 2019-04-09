@@ -3,8 +3,7 @@
 
 Ability to weigh several factors when making technical decisions. Some factors that could be considered are maintainability, security implications, performance implications, effects on other consumers, extensibility and adaptability of system, etc.
 
-*One example of success in this area*:  You have been noticing a lot of bugs arising the output of <command 1> and <command 2>. Additionally, you often see stories in the backlog around adding the same sort of features to both commands. You look through the code and notice that even though both commands are following separate code paths but are trying to accomplish roughly similar things. You share your findings with the team, and embark on a path to explore how to have both commands to follow similar code paths. After coming up with a plan, you get buy-in from your PM and other engineers to do this refactor as part of a larger epic. While you do this refactor you consider the maintainability and longer term extensibility of the system while you consolidate these paths. Finally, over time you observe that the number of bugs around those 2 commands decrease, and the team feels more comfortable navigating around that part of the codebase.
-
+One example of success in this area: You have been noticing a lot of bugs arising the output of <command 1> and <command 2>. Additionally, you often see stories in the backlog around adding the same sort of features to both commands. You look through the code and notice that even though both commands are following separate code paths they are trying to accomplish roughly similar things. You share your findings with the team, and embark on a path to explore how to have both commands to follow similar code paths. After coming up with a plan, you get buy-in from your PM and other engineers to do this refactor as part of a larger epic. While you do this refactor you consider the maintainability and longer term extensibility of the system while you consolidate these paths. Finally, over time you observe that the number of bugs around those 2 commands decrease, and the team feels more comfortable navigating around that part of the codebase.
 
 ---
 ### Proposed Levels and Skills
@@ -33,7 +32,7 @@ Ability to weigh several factors when making technical decisions. Some factors t
 
 <!-- P2 -->
 <td valign="top"><ul>
-  <li> Surfaces and discusses various factors (outlined in P3+) when approaching a technical decision, with support from other pivots to make the final decision. </li>
+  <li>Surfaces and discusses various factors (outlined on next page) when approaching a technical decision, with support from other pivots to make the final decision.</li>
 
   <li>Makes sound technical decisions that conform to the team's existing architecture or vision.</li>
 </ul></td>
