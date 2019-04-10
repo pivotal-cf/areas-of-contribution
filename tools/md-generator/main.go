@@ -35,6 +35,10 @@ type Area struct {
 	Id          string
 	Title       string
 	Description string
+
+	// extra fields that might be present, but we ignore when generating Markdown
+	Form  interface{}
+	Sheet interface{}
 }
 
 type Skill struct {
