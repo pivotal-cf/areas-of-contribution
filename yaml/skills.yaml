@@ -217,91 +217,91 @@ skills:
   description: >-
     Shows curiosity about the product their team is building (eg: how it helps customers, who are
     the downstream consumers, how to downstream consumers rely on it)
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p1
 - id: s523cd8bf
   description: >-
     Shows curiosity about bigger picture (boxes and lines) of CF (eg: watched videos from Cloud
     Foundry Summit, reads materials relating to technical concepts when presented by colleagues)
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p1
 - id: s31e3733f
   description: Has working knowledge about the product their team is building.
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p2
 - id: s2742e1ff
   description: Is learning about how other teams/downstream consumers/customers use their product
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p2
 - id: s585ae3d6
   description: Relates stories in the backlog to downstream consumers it would affect
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p2
 - id: scc522ffa
   description: Diagnoses issues that involve interactions with multiple CF components
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p2
 - id: sf7158cd3
   description: Can explain boxes-and-lines version of their team's product
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p2
 - id: s1a66ceeb
   description: >-
     Has sound knowledge of the team's product(s) and its downstream consumers, and can be counted
     upon to represent the team's interests.
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p3
 - id: s7664d55c
   description: >-
     Preemtively identifies dependencies/repercussions of features on downstream consumers and past
     releases
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p3
 - id: s8a0abd9f
   description: >-
     Provides context on their team for historical decisions, features in past releases, and their
     team's domain
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p3
 - id: s4e20b350
   description: >-
     Can explain boxes-and-lines version of CF and is able to provide a more detailed view on CF
     components
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p3
 - id: sc6072661
   description: 'Can ramp up a new PM on team domain, or fill in for their PM for short periods of time.'
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p3
 - id: s1baf6c7c
   description: >-
     Has working knowledge of an area of CF (eg: the BOSH ecosystem, the Platform, Logging and
     Metrics)
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p4
 - id: s2e251366
   description: >-
     Preemptively identifies dependencies/repercussions of an epic to all consumers within a domain
     area; can suggest changes to required components to resolve it
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p4
 - id: s46177acd
   description: Teaches Pivots on their team about a particular CF domain area
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p4
 - id: s51c43be9
   description: Leverages their knowledge of related domain concepts to better the product
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p4
 - id: s66f23c3e
   description: >-
     Can explain how a CF domain area has evolved over time (including familiarity with features in
     past releases)
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p4
 - id: sa467f450
   description: Takes measures to dissipate their CF domain knowledge with a goal of empowering their team
-  area: cf-domain-expertise
+  area: domain-expertise
   level: p5
 - id: s8d1ab0e6
   description: Communicates clearly and kindly with team mates

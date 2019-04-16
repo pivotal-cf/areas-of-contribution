@@ -34,7 +34,7 @@ areas:
     pipeline. Over time you use these signals to incrementally improve your CI pipeline and educate
     your teammate's about the importance of integrating early and often. You are eventually able to
     get your team to a point where CI being red is no longer the norm.
-- id: cf-domain-expertise
+- id: domain-expertise
   title: Cloud Foundry Domain Expertise
   description: >
     You understand the CF Products: How they work together, how they work with the larger ecosystem
