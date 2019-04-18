@@ -15,6 +15,7 @@ For more background on the thinking behind our current feedback process, [watch 
 ## How to interpret "frequency" & "impact"
 
 All checkboxes are optional. Only check boxes for what's been observed and is applicable.
+**Frequency** and **impact** should be treated as radio buttons. Please **do not** check multiple options within **impact** or **frequency**. For example, do not check both "High" and "Low" boxes for Impact.
 
 ### FREQUENCY
 
@@ -31,7 +32,8 @@ All checkboxes are optional. Only check boxes for what's been observed and is ap
   - Leave **impact** blank and use **frequency** only if it isn't clear or if they haven't yet made a difference
   - Did it improve something? Check "High"
   - Did something get worse? Check "Low"
-  - Is there room to make more of a difference than it did? Check both boxes
+  - Is there room to make more of a difference than it did? Leave **impact** blank
+  - Have they started making a difference, but it isn't entirely visible or clear yet? Leave **impact** blank
   - Please ensure managers have enough context; via the space in the form or shared directly with them
 
 **Frequency** & **impact** are similar to [outputs & outcomes](https://hbr.org/2012/11/its-not-just-semantics-managing-outcomes). **Frequency** is important, it describes the consistency of a pivot's efforts. **Impact** is related and perhaps more important, it speaks to whether these efforts were effective.
