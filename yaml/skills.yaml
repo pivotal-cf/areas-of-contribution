@@ -307,10 +307,6 @@ skills:
   description: Communicates clearly and kindly with team mates
   area: collaboration
   level: p1
-- id: s727682c5
-  description: Actively leaves space for others to share their ideas
-  area: collaboration
-  level: p1
 - id: s4ab0d417
   description: 'Is conscious and respectful of team''s agreements (eg: core working hours)'
   area: collaboration
@@ -323,6 +319,10 @@ skills:
   description: Pairs easily/successfully with most Pivots and/or teams
   area: collaboration
   level: p1
+- id: s727682c5
+  description: Actively leaves space for others to share their ideas
+  area: collaboration
+  level: p2
 - id: sdc8485fd
   description: Actively works to build a more inclusive team
   area: collaboration
@@ -347,6 +347,10 @@ skills:
   level: p2
 - id: s9cff8008
   description: Sets an example for clear and kind communication in a disagreement
+  area: collaboration
+  level: p3
+- id: s309df010
+  description: Actively works to ensure quieter teammates have room to share and get recognition for their ideas
   area: collaboration
   level: p3
 - id: s40b9df88
@@ -380,6 +384,10 @@ skills:
   level: p4
 - id: s841ab9ce
   description: Knows their blind spots and actively works towards managing them
+  area: collaboration
+  level: p4
+- id: s23d923lk
+  description: Coaches pivots on how to facilitate conversations and meetings that allow other quieter teammates to share and get recognition for their ideas
   area: collaboration
   level: p4
 - id: s8e42e988
