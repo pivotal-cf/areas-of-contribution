@@ -97,3 +97,18 @@ Themselves → Their pair → Their team → Surrounding / similar teams → The
 
 ##### Presence
 Respectful → Inclusive → Empathetic
+
+## Maintainers
+This repo has maintainers.  They are listed in the [MAINTAINERS](MAINTAINERS) file.
+
+The role of a maintainer is to:
+
+- Establish a change-approval process so that our practices, artifacts and tools may be improved by Pivots.
+
+- Review issues and pull-requests against this repo and provide feedback.
+
+- Contribute to this repo so that our existing practices, artifacts and tools are well-documented and easily discoverable
+
+#### Interested in becoming a maintainer?
+We'd love to share the responsibilities.  Please reach out to us.
+

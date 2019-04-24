@@ -1,0 +1,9 @@
+# Attempting to follow the format specified in https://github.com/bkeepers/OWNERS
+# See CONTRIBUTING.md to learn about the "maintainer" role
+
+# team
+@pivotal-cf/cf-feedback-and-evaluation-maintainers
+
+# current members in alphabetical order
+@rnandi
+@rosenhouse
