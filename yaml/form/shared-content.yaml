@@ -1,0 +1,105 @@
+---
+gridHeaderText: &gridHeaderText >-
+  Please respond to a row *only* if you've observed it. Check as many boxes
+  as you need to describe their contribution. An unchecked row is
+  interpreted as "N/A"
+gridColumns: &gridColumns
+- 'IMPACT: High'
+- 'IMPACT: Low'
+- 'FREQUENCY: Appropriately often'
+- 'FREQUENCY: Occasionally'
+- 'FREQUENCY: Only when asked'
+qualitativeInput:
+  title: &qualitativeTitle "Additional context"
+  helpText: &qualitativeHelpText >-
+    Share stories, provide clarification on particular points, convey any
+    uncertainty about the form options, or share relevant feedback that didn't
+    fit into the provided options.
+preSubmitPage:
+  title: &preSubmitPageTitle "Leave additional feedback?"
+conclusion: >-
+  By default, your feedback will be shared solely to this pivot's manager.
+  If this manager would like to share any of your specific feedback, they
+  will reach out to you separately. This will give you a chance to clarify
+  details and to ensure that the feedback will be relayed in a way that's
+  comfortable to you.
+topLevelLiterals:
+  access:
+    canEditResponses: false
+    hasLimitOneResponsePerUser: false
+    isAcceptingResponses: true
+    requiresLogin: true
+    collectsEmail: true
+  formMessages:
+    confirmationMessage: Thanks so much for giving us feedback!
+    customClosedFormMessage: ''
+    description: ''
+    hasRespondAgainLink: false
+  assertions:
+    destinationType: SPREADSHEET
+    hasProgressBar: false
+    isPublishingSummary: false
+    isQuiz: false
+firstItems:
+- index: 0
+  type: LIST
+  helpText: >-
+    You may provide feedback for as many skill areas as you'd like before
+    submitting the form. You can edit your response for any skill area by
+    choosing it again.
+  title: What skill area would you like to provide feedback about?
+  isRequired: true
+  choices: []  # fill in based on skill definitions
+- index: 1
+  type: PAGE_BREAK
+  title: Leave additional feedback?
+  pageNavigationType: CONTINUE
+- index: 2
+  type: LIST
+  title: What would you like to do now?
+  isRequired: false
+  choices:
+    - pageNavigationType: RESTART
+      value: Leave feedback on another skill area
+    - pageNavigationType: GO_TO_PAGE
+      value: Submit Form
+      gotoPage:
+        title: ''
+itemsPerSkillArea:
+- type: "PAGE_BREAK"
+  title: "SKILL_AREA_TITLE"
+  pageNavigationType: "GO_TO_PAGE"
+  gotoPage: { title: *preSubmitPageTitle }
+- type: "SECTION_HEADER"
+  title: *gridHeaderText
+- type: "CHECKBOX_GRID"
+  isRequired: false
+  columns: *gridColumns
+- type: "PARAGRAPH_TEXT"
+  isRequired: false
+  title: *qualitativeTitle
+  helpText: *qualitativeHelpText
+- type: "PAGE_BREAK"
+  title: "Advanced SKILL_AREA_TITLE"
+  pageNavigationType: "GO_TO_PAGE"
+  gotoPage: { title: "Advanced SKILL_AREA_TITLE" }
+- type: "SECTION_HEADER"
+  title: *gridHeaderText
+- type: "CHECKBOX_GRID"
+  isRequired: false
+  columns: *gridColumns
+- type: "PARAGRAPH_TEXT"
+  isRequired: false
+  title: *qualitativeTitle
+  helpText: *qualitativeHelpText
+lastItems:
+- type: PAGE_BREAK
+  helpText: >-
+    By default, your feedback will be shared solely to this pivot's manager.
+    If this manager would like to share any of your specific feedback, they
+    will reach out to you separately. This will give you a chance to clarify
+    details and to ensure that the feedback will be relayed in a way that's
+    comfortable to you.
+  pageNavigationType: GO_TO_PAGE
+  gotoPage:
+    title: Leave additional feedback?

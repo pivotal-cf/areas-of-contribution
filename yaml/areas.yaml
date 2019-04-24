@@ -1,18 +1,18 @@
 areas:
 - id: technical-execution
   title: Technical Execution
-  description: >
+  description: >-
     You can be depended upon to pick up a story from the backlog, do it well (quickly / dependably /
     transparently / correctly / valuably) and drive it to delivery. You ramp up quickly on new
     teams, and are soon productive as a solo or pair.
 
 
-    *One example of success in this area*: You are trusted to drive stories to completion, and
-    answer on-call escalations. Your anchor can depend on you to pair/solo on any story in the
-    backlog, and provide leadership on tracks that need extra guidance.
+    One example of success in this area: You are trusted to drive stories to completion, and answer
+    on-call escalations. Your anchor can depend on you to pair/solo on any story in the backlog, and
+    provide leadership on tracks that need extra guidance.
 
 
-    *Another example of success in this area*: You join a team whose main responsibility is
+    Another example of success in this area: You join a team whose main responsibility is
     integrating assets from other teams, and deploying them to a long, running production
     environment. You have minimal experience with operating the CF platform at scale. You are able
     to learn the tribal knowledge on the team quickly, and are able to execute on stories in the
@@ -21,13 +21,13 @@ areas:
     uncertain/risky/technically complex stories.
 - id: engineering-process
   title: Engineering Process
-  description: >
+  description: >-
     You understand the importance of maintaining feedback loops on an engineering team. You can
     expand on the philosophy behind our engineering process. You can innovate on our existing
-    process to tailor practices to your team's needs. 
+    process to tailor practices to your team's needs.
 
 
-    *One example of success in this area*: Your team is not very disciplined about build failures in
+    One example of success in this area: Your team is not very disciplined about build failures in
     CI. You start a conversation with your team to understand what could make CI more useful and
     share the pain you observe when CI is red. After discussing it, you make a chore to refactor
     your concourse pipeline, in order to get more actionable signals from each portion of the
@@ -35,14 +35,15 @@ areas:
     your teammate's about the importance of integrating early and often. You are eventually able to
     get your team to a point where CI being red is no longer the norm.
 - id: domain-expertise
-  title: Cloud Foundry Domain Expertise
-  description: >
+  title: CF Domain Expertise
+  description: >-
+
     You understand the CF Products: How they work together, how they work with the larger ecosystem
     of non-CF Products. You can navigate the CF system and its engineering teams on a broad level,
     and know which areas to consider in problem-solving.
 
 
-    *One example of success in this area*: You are trying to decide how to implement a database
+    One example of success in this area: You are trying to decide how to implement a database
     migration in CCDB. You know that this change may affect CC’s communication with Diego, with
     Routing, and with Networking. You surface how you think the changes will affect those teams to
     your PM/Anchor and work to find a solution that would minimize the impact on those teams.
@@ -50,38 +51,39 @@ areas:
     moving forward with works as desired for them.
 - id: collaboration
   title: Collaboration
-  description: >
-    You communicate clearly, proactively, and kindly. You initiate the communication in challenging
-    situations. You behave in a way that ensures safety, inclusion, and recognition of fellow
-    pivots. Your behavior leaves space for others to speak, and to disagree with your views. You
-    contribute positively to our culture.
+  description: >-
+    Ability to communicate clearly, proactively, and kindly. You initiate the communication in
+    challenging situations. You behave in a way that ensures safety, inclusion, and recognition of
+    fellow pivots. Your behavior leaves space for others to speak, and to disagree with your views.
+    You contribute positively to our culture.
 
 
-    *One example of success in this area*: One of your teammates has a frequent habit of
-    interrupting others in meetings, especially when they’re excited about an idea. You find them
-    after a meeting, and directly but kindly deliver this feedback. They don’t know what you’re
-    talking about. You ask if it would be okay to stop them next time this happens. They agree. In
-    the future, the team feels comfortable with giving feedback about interrupting in meetings in
-    the moment.
+    One example of success in this area: One of your teammates has a frequent habit of interrupting
+    others in meetings, especially when they’re excited about an idea. You find them after a
+    meeting, and directly but kindly deliver this feedback. They don’t know what you’re talking
+    about. You ask if it would be okay to stop them next time this happens. They agree. In the
+    future, the team feels comfortable with giving feedback about interrupting in meetings in the
+    moment.
 - id: project-leadership
   title: Project Leadership
-  description: >
+  description: >-
+
     You ensure the productivity and health of your engineering team. You can act as a
     coordinator/liaison for initiatives on the team. You can act according to your team’s
     priorities. You ensure that voices are heard, and can take initiative to act alone when needed.
     Overall, you are a role model on your team for all aspects of our culture and process.
 
 
-    *One example of success in this area*: You are anchoring your team. You’ve been working with
-    your PM and Designer to outline a new epic, and would like to share your learnings with the
-    team. You facilitate a meeting where folks brainstorm and share their thoughts. After the
-    meeting, you work with the PM to scope out explorations that the team can do to de-risk the
-    epic. You incorporate the output of the explorations, your knowledge of the problem, and work
-    with the PM to choose a path forward. You share the outcomes with your team, and continue to be
-    open to input from them as the features are developed.
+    One example of success in this area: You are anchoring your team. You’ve been working with your
+    PM and Designer to outline a new epic, and would like to share your learnings with the team. You
+    facilitate a meeting where folks brainstorm and share their thoughts. After the meeting, you
+    work with the PM to scope out explorations that the team can do to de-risk the epic. You
+    incorporate the output of the explorations, your knowledge of the problem, and work with the PM
+    to choose a path forward. You share the outcomes with your team, and continue to be open to
+    input from them as the features are developed.
 - id: alignment
   title: Alignment and Adaptability
-  description: >
+  description: >-
     You take on the most important challenge with an open mind; to what degree are you willing and
     capable to take on the challenge that the organization would find the most impactful, even if
     it's not your first choice. You actively consider how you can best help the organization, and
@@ -95,9 +97,11 @@ areas:
     before, and would probably not choose to take on this challenge of your own volition. However,
     you agree to the change in plans, approach <project 2> with positivity, find ways to grow your
     skills in other areas while you are there, and are able to address the challenges on the team.
+  form:
+    title: Alignment & Adaptability
 - id: support
   title: Support
-  description: >
+  description: >-
     Passion for supporting our customers on their PCF journey, and ability to approach support
     issues with a customer-focussed mindset. You are able to handle interrupt-driven and exploratory
     work (e.g. questions on slack, on-call escalations, participation in cross-team meetings.) You
@@ -108,25 +112,25 @@ areas:
     meet the customer midway.
 
 
-    _One example of success in this area_: Your PM notes that there is an open support ticket that
-    the team should help with. You don’t have much context on the issue, but go into the Slack
-    channel with an open mind. You ask good foundational questions, learning where assumptions have
-    been made, and where evidence has been found. After speaking with the customer and with Pivotal
+    One example of success in this area: Your PM notes that there is an open support ticket that the
+    team should help with. You don’t have much context on the issue, but go into the Slack channel
+    with an open mind. You ask good foundational questions, learning where assumptions have been
+    made, and where evidence has been found. After speaking with the customer and with Pivotal
     Support, you realize that this is a known issue in an upstream product, and point support in the
     right direction. You explain how you got to this conclusion, and stay in the Slack channel until
     it’s clear that the issue has been resolved and the customer is satisfied with the outcome.
 - id: technical-decision-making
   title: Technical Decision-Making
-  description: >
+  description: >-
     Ability to weigh several factors when making technical decisions. Some factors that could be
     considered are maintainability, security implications, performance implications, effects on
     other consumers, extensibility and adaptability of system, etc.
 
 
-    *One example of success in this area*:  You have been noticing a lot of bugs arising the output
-    of <command 1> and <command 2>. Additionally, you often see stories in the backlog around adding
+    One example of success in this area: You have been noticing a lot of bugs arising the output of
+    <command 1> and <command 2>. Additionally, you often see stories in the backlog around adding
     the same sort of features to both commands. You look through the code and notice that even
-    though both commands are following separate code paths but are trying to accomplish roughly
+    though both commands are following separate code paths they are trying to accomplish roughly
     similar things. You share your findings with the team, and embark on a path to explore how to
     have both commands to follow similar code paths. After coming up with a plan, you get buy-in
     from your PM and other engineers to do this refactor as part of a larger epic. While you do this
@@ -134,9 +138,11 @@ areas:
     consolidate these paths. Finally, over time you observe that the number of bugs around those 2
     commands decrease, and the team feels more comfortable navigating around that part of the
     codebase.
+  sheet:
+    title: Technical Decision Making
 - id: flow
   title: Flow
-  description: >
+  description: >-
     You understand how software makes it from an engineering team to the customer, from start to
     finish. You can evaluate and explain the "flow" of work through this system, and identify
     bottlenecks. You can help your team prioritize these bottlenecks, optimizing for a positive
@@ -144,7 +150,7 @@ areas:
     surrounding yours, and to avoid blocking their work.
 
 
-    *One example of success in this area*: An investigation in your backlog has been blocked for
-    days. Your teammates have made a valiant effort, but no one has found a way forward. You find a
-    way to implement the feature without needing the blocking dependency. You outline a plan for
+    One example of success in this area: An investigation in your backlog has been blocked for days.
+    Your teammates have made a valiant effort, but no one has found a way forward. You find a way to
+    implement the feature without needing the blocking dependency. You outline a plan for
     integrating the dependency once it’s ready, and talk to the upstream team to finalize it.

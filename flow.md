@@ -3,8 +3,7 @@
 
 You understand how software makes it from an engineering team to the customer, from start to finish. You can evaluate and explain the "flow" of work through this system, and identify bottlenecks. You can help your team prioritize these bottlenecks, optimizing for a positive impact on downstream consumers or for customers. You use your flow knowledge to advise teams surrounding yours, and to avoid blocking their work.
 
-*One example of success in this area*: An investigation in your backlog has been blocked for days. Your teammates have made a valiant effort, but no one has found a way forward. You find a way to implement the feature without needing the blocking dependency. You outline a plan for integrating the dependency once it’s ready, and talk to the upstream team to finalize it.
-
+One example of success in this area: An investigation in your backlog has been blocked for days. Your teammates have made a valiant effort, but no one has found a way forward. You find a way to implement the feature without needing the blocking dependency. You outline a plan for integrating the dependency once it’s ready, and talk to the upstream team to finalize it.
 
 ---
 ### Proposed Levels and Skills

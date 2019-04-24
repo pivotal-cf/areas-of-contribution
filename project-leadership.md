@@ -1,10 +1,10 @@
 <!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
 ## Project Leadership
 
+
 You ensure the productivity and health of your engineering team. You can act as a coordinator/liaison for initiatives on the team. You can act according to your team’s priorities. You ensure that voices are heard, and can take initiative to act alone when needed. Overall, you are a role model on your team for all aspects of our culture and process.
 
-*One example of success in this area*: You are anchoring your team. You’ve been working with your PM and Designer to outline a new epic, and would like to share your learnings with the team. You facilitate a meeting where folks brainstorm and share their thoughts. After the meeting, you work with the PM to scope out explorations that the team can do to de-risk the epic. You incorporate the output of the explorations, your knowledge of the problem, and work with the PM to choose a path forward. You share the outcomes with your team, and continue to be open to input from them as the features are developed.
-
+One example of success in this area: You are anchoring your team. You’ve been working with your PM and Designer to outline a new epic, and would like to share your learnings with the team. You facilitate a meeting where folks brainstorm and share their thoughts. After the meeting, you work with the PM to scope out explorations that the team can do to de-risk the epic. You incorporate the output of the explorations, your knowledge of the problem, and work with the PM to choose a path forward. You share the outcomes with your team, and continue to be open to input from them as the features are developed.
 
 ---
 ### Proposed Levels and Skills

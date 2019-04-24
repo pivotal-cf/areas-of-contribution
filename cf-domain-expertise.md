@@ -1,10 +1,10 @@
 <!--- This file was GENERATED.  Do not edit it directly.  Instead, edit the corresponding YAML file --->
-## Cloud Foundry Domain Expertise
+## CF Domain Expertise
+
 
 You understand the CF Products: How they work together, how they work with the larger ecosystem of non-CF Products. You can navigate the CF system and its engineering teams on a broad level, and know which areas to consider in problem-solving.
 
-*One example of success in this area*: You are trying to decide how to implement a database migration in CCDB. You know that this change may affect CC’s communication with Diego, with Routing, and with Networking. You surface how you think the changes will affect those teams to your PM/Anchor and work to find a solution that would minimize the impact on those teams. Additionally, you loop those teams into the conversation, and ensure that the solution you are moving forward with works as desired for them.
-
+One example of success in this area: You are trying to decide how to implement a database migration in CCDB. You know that this change may affect CC’s communication with Diego, with Routing, and with Networking. You surface how you think the changes will affect those teams to your PM/Anchor and work to find a solution that would minimize the impact on those teams. Additionally, you loop those teams into the conversation, and ensure that the solution you are moving forward with works as desired for them.
 
 ---
 ### Proposed Levels and Skills

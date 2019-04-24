@@ -3,10 +3,9 @@
 
 You can be depended upon to pick up a story from the backlog, do it well (quickly / dependably / transparently / correctly / valuably) and drive it to delivery. You ramp up quickly on new teams, and are soon productive as a solo or pair.
 
-*One example of success in this area*: You are trusted to drive stories to completion, and answer on-call escalations. Your anchor can depend on you to pair/solo on any story in the backlog, and provide leadership on tracks that need extra guidance.
+One example of success in this area: You are trusted to drive stories to completion, and answer on-call escalations. Your anchor can depend on you to pair/solo on any story in the backlog, and provide leadership on tracks that need extra guidance.
 
-*Another example of success in this area*: You join a team whose main responsibility is integrating assets from other teams, and deploying them to a long, running production environment. You have minimal experience with operating the CF platform at scale. You are able to learn the tribal knowledge on the team quickly, and are able to execute on stories in the backlog with little guidance. Soon after, other pairs rely on you to onboard new team members, approach you with questions relating to the domain, and to reliably drive to completion uncertain/risky/technically complex stories.
-
+Another example of success in this area: You join a team whose main responsibility is integrating assets from other teams, and deploying them to a long, running production environment. You have minimal experience with operating the CF platform at scale. You are able to learn the tribal knowledge on the team quickly, and are able to execute on stories in the backlog with little guidance. Soon after, other pairs rely on you to onboard new team members, approach you with questions relating to the domain, and to reliably drive to completion uncertain/risky/technically complex stories.
 
 ---
 ### Proposed Levels and Skills
@@ -38,14 +37,14 @@ You can be depended upon to pick up a story from the backlog, do it well (quickl
 
   <li>Is comfortable with carrying context on well-defined stories</li>
 
-  <li>Clarifies product requirements on stories, when necessary.</li>
+  <li>Clarifies product requirements on stories, when necessary</li>
 </ul></td>
 
 <!-- P2 -->
 <td valign="top"><ul>
   <li>Able to lead a pair on well-defined tracks of work; can solo on well-defined tracks, if needed</li>
 
-  <li>Participates in writing acceptance criteria for well-scoped stories, when necessary.</li>
+  <li>Participates in writing acceptance criteria for well-scoped stories, when necessary</li>
 
   <li>Fits engineering chore work into existing feature work</li>
 
@@ -68,7 +67,7 @@ You can be depended upon to pick up a story from the backlog, do it well (quickl
 
   <li>Leads or anchors well-defined tracks of work.</li>
 
-  <li>Notices anti-patterns, can articulate reasoning and suggest ways to course-correct.</li>
+  <li>Notices anti-patterns, can articulate reasoning and suggest ways to course-correct</li>
 
   <li>Consistently follows up on tasks/communication from stories</li>
 
@@ -81,7 +80,7 @@ You can be depended upon to pick up a story from the backlog, do it well (quickl
 
   <li>Is focused on solving customer problems, and works with PM+Design to translate customer problems to well-defined stories for the team</li>
 
-  <li>Provides technical leadership at inceptions (eg: holds context around multiple cross-cutting tracks of work, and understands how to use that context to keep the inception focussed.)</li>
+  <li>Provides technical leadership at inceptions (eg: holds context around multiple cross-cutting tracks of work, and understands how to use that context to keep the inception focussed)</li>
 
   <li>Able to recognize what would help improve technical execution on teams, and successfully fills in that role. (Eg: notices PM needs coaching, and steps up to enable PM, etc.)</li>
 
@@ -89,7 +88,7 @@ You can be depended upon to pick up a story from the backlog, do it well (quickl
 
   <li>Teaches technical concepts and show team members how it is applicable to their product</li>
 
-  <li>Can navigate their way through legacy systems and improve throughput of the team (eg: notices complex code paths are slowing down feature delviery, facilitates conversations with the team on how to simplify them, gets buy-in from PM+leadership to prioritize this work, drives it to completion with the team.)</li>
+  <li>Can navigate their way through legacy systems and improve throughput of the team (eg: notices complex code paths are slowing down feature delivery, facilitates conversations with the team on how to simplify them, gets buy-in from PM+leadership to prioritize this work, drives it to completion with the team)</li>
 </ul></td>
 
 </tr>
