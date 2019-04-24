@@ -80,23 +80,45 @@ These themes span skills and skill areas, and are ordered from left-to-right
 roughly in terms of scope or depth of impact.  They can be useful in determining what
 P-level a particular skill belongs at.
 
-##### Taking initiative
-Following → Ability → Initiative → Follow-through
+<table>
+<tbody>
 
-##### Operating in the unknown
-Doing well-defined tasks → Doing less-defined tasks → Leading others through areas of uncertainty
+<thead>
+<td><strong>Theme</strong></td>
+<td><strong>Progression</strong></td>
+</thead>
 
-##### Mechanics
-Assisting others in doing X → Doing X → Doing X exceptionally → Coaching others on doing X
+<tr>
+<td>Taking initiative</td>
+<td>Following → Ability → Initiative → Follow-through</td>
+</tr>
 
-##### Consistency
-When asked  → Reacting to own observations → Proactively → Continually
+<tr>
+<td>Operating in the unknown</td>
+<td>Doing well-defined tasks → Doing less-defined tasks → Leading others through areas of uncertainty</td>
+</tr>
 
-##### Scope of impact
-Themselves → Their pair → Their team → Surrounding / similar teams → The organization
+<tr>
+<td>Mechanics</td>
+<td>Assisting others in doing X → Doing X → Doing X exceptionally → Coaching others on doing X</td>
+</tr>
 
-##### Presence
-Respectful → Inclusive → Empathetic
+<tr>
+<td>Consistency</td>
+<td> When asked  → Reacting to own observations → Proactively → Continually </td>
+</tr>
+
+<tr>
+<td>Scope of impact</td>
+<td> Themselves → Their pair → Their team → Surrounding / similar teams → The organization </td>
+</tr>
+
+<tr>
+<td>Presence</td>
+<td> Respectful → Inclusive → Empathetic </td>
+</tr>
+
+</tbody></table>
 
 ## How to make a change to the skill definitions
 
