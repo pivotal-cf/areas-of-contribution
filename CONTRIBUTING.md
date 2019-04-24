@@ -98,6 +98,58 @@ Themselves → Their pair → Their team → Surrounding / similar teams → The
 ##### Presence
 Respectful → Inclusive → Empathetic
 
+## How to make a change to the skill definitions
+
+Open a PR with a commit that changes some text in the [`skills.yaml` file](https://github.com/pivotal-cf/areas-of-contribution/blob/master/yaml/skills.yaml).
+
+If you change the meaning of a skill, please change the `id` also.  The decision of whether or not to migrate response data is conveyed by whether or not the `id` field of a skill definition remains intact.
+
+### Contributor decision tree
+- Should prior responses be migrated to the new skill definition?
+   - yes?
+     -  then keep the `id` field intact
+     - it is ok to mutate `description` and any other fields
+   - no?
+     - then change the `id` field (in other words, "delete and re-recreate")
+     - ok to change any fields
+
+
+### Examples
+
+1. Typo fix.  Preserve existing responses.
+   ```diff
+    - id: sf53e8688
+      description: >-
+        Can navigate their way through legacy systems and improve throughput of the team (eg: notices
+   -    complex code paths are slowing down feature delviery, facilitates conversations with the team on
+   +    complex code paths are slowing down feature delivery, facilitates conversations with the team on
+        how to simplify them, gets buy-in from PM+leadership to prioritize this work, drives it to
+        completion with the team.)
+      area: technical-execution
+   ```
+
+0. Change the P-level associated with a skill definition.  Preserve existing responses.
+   ```diff
+    - id: s2be43833
+      description: Discusses the balance of short term execution with long term health
+   area: technical-execution
+   -  level: p2
+   +  level: p3
+   ```
+
+0. Change the meaning of a skill definition and its P-level.  Do not migrate old responses to the new skill.
+   ```diff
+   -- id: s2be43833
+   -  description: Discusses the balance of short term execution with long term health
+   +- id: s8131ec9e
+   +  description: Calibrates pace of execution to balance short term delivery with long-term health
+      area: technical-execution
+   -  level: p2
+   +  level: p3
+   ```
+
+
+
 ## Maintainers
 This repo has maintainers.  They are listed in the [MAINTAINERS](MAINTAINERS) file.
 
