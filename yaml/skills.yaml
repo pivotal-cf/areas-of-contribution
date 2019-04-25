@@ -120,7 +120,7 @@ skills:
 - id: sf53e8688
   description: >-
     Can navigate their way through legacy systems and improve throughput of the team (eg: notices
-    complex code paths are slowing down feature delivery, facilitates conversations with the team on
+    complex code paths are slowing down feature delviery, facilitates conversations with the team on
     how to simplify them, gets buy-in from PM+leadership to prioritize this work, drives it to
     completion with the team)
   area: technical-execution
@@ -704,8 +704,7 @@ skills:
   level: p1
 - id: sb3dee7be
   description: >-
-    Surfaces and discusses various factors (outlined on next page) when approaching a technical
-    decision, with support from other pivots to make the final decision.
+    Surfaces and discusses various factors (outlined in P3+) when approaching a technical decision, with support from other pivots to make the final decision.
   area: technical-decision-making
   level: p2
 - id: sb02977ca
