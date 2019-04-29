@@ -1,0 +1,16 @@
+<script>
+
+const github = {
+  baseUrl: "https://raw.githubusercontent.com/pivotal-cf/areas-of-contribution/",
+  files: {
+    areas: "yaml/areas.yaml",
+    skills: "yaml/skills.yaml",
+    sharedContent: "yaml/form/shared-content.yaml",
+  },
+  fetchYaml: function(branch, fileName) {
+    const url = this.baseUrl + branch + "/" + fileName;
+    return fetch(url).then(resp => resp.text()).then(jsyaml.safeLoad);  
+  }
+}
+
+</script>

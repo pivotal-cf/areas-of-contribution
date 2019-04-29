@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-yaml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.0/js-yaml.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism.min.css" />
+
+    <?!= include('frontend/style.css'); ?>
+    
+    <base target="_blank">
+  </head>
+  <body><div class="p-3">
+  
+    <h1>Feedback Form and Sheet Updater</h1>
+    <hr>
+    
+    <form class="form-control-lg">
+    <fieldset id="form-fields">
+    <table class="table table-striped">
+    
+    <tr>
+      <td>Signed in as</td>
+      <td><code><span id="email"></span></code></td>
+    </tr>
+    
+    <tr>
+      <td>Current version is</td>
+      <td> 
+        <a href="https://github.com/pivotal-cf/areas-of-contribution">
+         <b>Areas of Contribution</b></a> git ref: <input type="text" id="gitRefMigrateFrom" class="gitRefInput" value="0.1.1" size="40">
+      </td>
+    </tr>
+
+    <tr>
+      <td>Migrate to new version </td>
+      <td> 
+        <a href="https://github.com/pivotal-cf/areas-of-contribution">
+         <b>Areas of Contribution</b></a> git ref: <input type="text" id="gitRefMigrateTo" class="gitRefInput" value="master" size="40">
+      </td>
+    </tr>
+
+    <tr>
+      <td>Feedback form link
+      <p><small>(the linked sheet will also be migrated)</small></p>
+      
+      </td>
+      <td>
+          <input type="text" name="feedbackFormUrl" size="95" placeholder="https://docs.google.com/forms/d/YOUR-FORM-HERE/edit"
+                 onchange="onFormUrlUpdate(this)"
+          />
+          <div id="form-url-status" class="alert alert-secondary" role="alert">
+            <pre><code id="form-title-raw"></code></pre>
+            <div id="form-url-hint">
+              <i>Looking for form links?  Try the <a href="http://bit.ly/feedback-for-all">Directory</a></i>
+            </div>
+          </div>
+       </td>
+    </tr>
+     
+    </table>
+    
+        <div id="output-success" class="alert alert-success" role="alert" hidden="true"></div>
+        <div id="output-progress" class="alert alert-warning" role="alert" hidden="true"></div>
+        <div id="output-error" class="alert alert-danger" role="alert" hidden="true"></div>    
+    
+    <input type="button" value="Update" onclick="update()" />
+    </fieldset>
+    </form>
+
+<details class="text-muted">
+  <summary>Debug info</summary>
+  <ul class="nav nav-tabs" id="myTabList" role="tablist"><!-- auto-filled by ui.js --></ul>
+  <div class="tab-content" id="myTabContent"><!-- auto-filled by ui.js --></div>
+</details>
+
+ <?!= include('frontend/github.js'); ?>
+ <?!= include('frontend/ui.js'); ?>
+ <?!= include('frontend/main.js'); ?>
+ <script>onLoad();</script>
+ </div></body>
+</html>

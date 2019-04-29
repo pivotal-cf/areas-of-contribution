@@ -1,0 +1,151 @@
+<script>
+// Prevent forms from submitting.
+function preventFormSubmit() {
+  var forms = document.querySelectorAll('form');
+  for (var i = 0; i < forms.length; i++) {
+    forms[i].addEventListener('submit', function(event) {
+      event.preventDefault();
+    });
+  }
+}
+
+function setFormEnabled(enabled) {
+  document.getElementById("form-fields").disabled=!enabled;      
+}
+
+function setUpdateEnabled(enabled) {
+  $("[type=button]").prop("disabled", !enabled);
+}
+
+function onFailure(error) {
+  setFormEnabled(true);
+  setStatusMessage({error: "<b>Error</b>: <i>" + error.message
+    + "</i><p>Contact <a href='https://github.com/pivotal-cf/feedback-and-evaluation/blob/master/MAINTAINERS'>a maintainer</a> for troubleshooting." });
+}
+
+function onSuccess(message) {
+    setFormEnabled(true);
+    setStatusMessage({success: message});
+}
+
+
+function setStatusMessage(status) {
+   if ("success" in status) {
+       document.getElementById("output-error").hidden = true;
+       document.getElementById("output-progress").hidden = true;
+       document.getElementById("output-success").hidden = false;
+       document.getElementById("output-success").innerHTML = status["success"]
+   } else if ("progress" in status) {
+       document.getElementById("output-error").hidden = true;
+       document.getElementById("output-progress").hidden = false;
+       document.getElementById("output-success").hidden = true;
+       document.getElementById("output-progress").innerHTML = '<span>' + status["progress"] + ' ... <progress /></span>'
+   } else if ("error" in status) {
+       document.getElementById("output-error").hidden = false;
+       document.getElementById("output-progress").hidden = true;
+       document.getElementById("output-success").hidden = true;
+       document.getElementById("output-error").innerHTML = status["error"]
+   } else {
+       document.getElementById("output-error").hidden = true;
+       document.getElementById("output-progress").hidden = true;
+       document.getElementById("output-success").hidden = true;
+   }
+}
+
+function isEditLink(url) {
+  var ok = url.startsWith("https://docs.google.com/forms/d/") && url.includes("/edit");
+  if (ok) {
+    return true
+  }
+
+  setStatusMessage({error: "Please provide the <b>Edit URL</b> for the form.  It's behind the [🖋]? icon in the <i>top-right corner of the form</i>." });
+  return false
+}
+
+function updateEmailField(receivedText) {
+   document.getElementById('email').innerHTML = receivedText;
+}
+
+const tabs = [
+    {id: "migrateFromAreas", title: "Migrate From: Areas", init: "# starting area definitions will load here"},
+    {id: "migrateFromSkills", title: "Migrate From: Skills", init: "# starting skill definitions will load here"},
+    {id: "migrateToAreas", title: "Migrate To: Areas", init: "# ending area definitions will load here"},
+    {id: "migrateToSkills", title: "Migrate To: Skills", init: "# ending skill definitions will load here"},
+    {id: "origResponseSheetCols", title: "Original: Response Sheet Columns", init: "# original response sheet column headers will load here"},
+    {id: "origForm", title: "Original: Form", init: "# original form spec will load here"},
+    {id: "planFormEdits", title: "Plan: Form Edits", init: "# edits to the form will load here"},
+];
+   
+function onLoad() {
+   window.addEventListener('load', preventFormSubmit);
+
+   var emailField = document.getElementById('email')
+   google.script.run.withFailureHandler(onFailure).withSuccessHandler(updateEmailField).getUserEmail();
+   
+   const tabHeaderTemplate = '<li class="nav-item"><a class="nav-link" id="ID-tab" data-toggle="tab" href="#ID" role="tab" aria-controls="ID" aria-selected="false">TITLE</a></li>';
+   const tabContentTemplate = '<div class="tab-pane fade" id="ID" role="tabpanel" aria-labelledby="ID-tab"><pre><code class="language-yaml" id="ID-yaml">INIT</code></pre></div>';
+   tabs.forEach(t => {
+     $("#myTabList").append(tabHeaderTemplate.replace(/ID/g, t.id).replace(/TITLE/g, t.title));
+     $("#myTabContent").append(tabContentTemplate.replace(/ID/g, t.id).replace(/INIT/g, t.init));
+   });
+   $(".nav-link").first().attr("aria-selected", "true").addClass("active");
+   $(".tab-pane").first().addClass("show active");  
+   $("[name=feedbackFormUrl]").on('focusin',  function() { setUpdateEnabled(false); });
+}
+
+function reportYaml(id, content) {
+  $('#' + id + '-yaml').text(jsyaml.safeDump(content, {noArrayIndent: true}));
+  Prism.highlightAll();
+}
+
+function clearAllYaml() {
+  tabs.forEach(t =>  $('#' + t.id + '-yaml').text(t.init));
+  Prism.highlightAll();
+}
+
+function setVisible(jq, visible) {
+  visible ? jq.removeClass("invisible") : jq.addClass("invisible");
+}
+
+function onFormUrlUpdate(textInput) {
+   setFormEnabled(false);
+   if (!isEditLink(textInput.value)) {
+     setFormEnabled(true);
+     setVisible($('#form-title-raw'), false);
+     setVisible($('#form-url-hint'), true);
+     return
+   }
+   google.script.run.withFailureHandler(function(error) { 
+       $('#form-title-raw').text("");
+       setVisible($('#form-title-raw'), false);
+       setVisible($('#form-url-hint'), true);
+       $('#gitRefMigrateFrom').removeClass("inferredFromSheet");
+       setStatusMessage({error: "<b>Error</b>:" + error.message});
+       clearAllYaml();
+       setUpdateEnabled(true);
+       setFormEnabled(true);
+   }).withSuccessHandler(function(resp) {
+     setVisible($('#form-title-raw'), true);
+     
+     $('#form-title-raw').text("Form: " + resp.formTitle + "\nSheet: " + resp.sheetTitle);
+     setVisible($('#form-url-hint'), false);
+
+     $('#gitRefMigrateFrom').val(resp.skillsVersion);
+     $('#gitRefMigrateFrom').addClass("inferredFromSheet");
+     setStatusMessage({});
+     clearAllYaml();
+     setUpdateEnabled(true);
+     setFormEnabled(true);
+   }).getFormAndSheetMetadata(textInput.value);      
+}
+
+
+function getUserInputs() {
+  return {
+    formUrl: $("input[name=feedbackFormUrl]").val(),
+    migrateFrom: { gitRef: $("#gitRefMigrateFrom").val() },
+    migrateTo: { gitRef: $("#gitRefMigrateTo").val() },
+  };
+}
+</script>
+
