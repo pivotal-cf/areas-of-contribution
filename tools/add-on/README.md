@@ -2,7 +2,6 @@
 
 Google Sheets add-on that links it to Areas of Contribution.
 
-Current functionality is limited to updating the Skills table.
-
-Roadmap:
-- migrate data
+It provides two features:
+- Migrate the sheet and linked feedback form to a new git-ref of Areas of Contribution
+- Set the skill definitions used in the sheet to a particular git ref, without migrating.
