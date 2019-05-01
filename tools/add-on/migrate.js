@@ -1,12 +1,17 @@
 function migrateCore_(spreadsheet, toGitRef) {
   console.log("starting migration for " + spreadsheet.getId());
+  if (!spreadsheet.getFormUrl()) {
+    throw "Link a feedback form to this sheet before attempting to migrate."; 
+  }
+  
   assertConfigOk_(spreadsheet);    // ensure the current is internally consistent
-  const sheetConfig = configLoad_(spreadsheet);  
+  
+  const sheetConfig = configLoad_(spreadsheet);
   const origLinkedRespSheet = getConfiguredRawRespSheet_(spreadsheet, sheetConfig);
-
+  
   const formUrl = origLinkedRespSheet.getFormUrl();
   if (!formUrl) {
-    throw "Error: link the Feedback Form to this spreadsheet before attempting to migrate."
+    throw "Form-linked sheet must be named in Config 'Raw Responses Sheet'."
   }
   const form = FormApp.openByUrl(formUrl);
   

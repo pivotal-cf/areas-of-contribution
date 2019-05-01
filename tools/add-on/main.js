@@ -39,14 +39,14 @@ function migrateUI_() {
     return;
   }
   
-  const really = alertOkCancel_(ui, "Ready?", "This may take up to *** 3 minutes *** to complete.   Are you ready?");
+  const really = alertOkCancel_(ui, "Ready?", "This may take up to *** 3 minutes *** to complete.\n\nContinue?");
   if (!really) {
     return;
   }
   
   const successMessage = migrateCore_(SpreadsheetApp.getActiveSpreadsheet(), toGitRef);
   
-  ui.alert(successMessage);
+  ui.alert("Migration: Success!", successMessage, ui.ButtonSet.OK);
 }
 
 function setSkillVersionUI_() {
