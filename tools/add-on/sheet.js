@@ -26,24 +26,33 @@ function findLinkedSheet_(spreadsheet, form) {
   return linkedSheets[0];  
 }
 
+function getUnpropogatedHeaders(sheet, areas) {
+  const colHeaderIndex = makeColumnHeaderIndex_(getColumnHeaders_(sheet));
+  var unprop = [];
+  areas.forEach(function(area) {
+    const basic = form_additionalContextTitle_basic_(area);
+    const advanced = form_additionalContextTitle_advanced_(area);
+    const ok = !!(colHeaderIndex[basic] && colHeaderIndex[advanced]);
+    if (!ok) {
+      unprop.push(form_areaTitle_(area));
+    }
+  });
+  return unprop;  
+}
+
 // don't unlink until title changes propogate to the google sheet
 // if the form is unlinked too soon after the titles are changed, the title changes
 // won't make it to the sheet, which results in the sheet being inconsistent with the form
 function waitUntilTitlesHavePropogatedToOriginalSheet_(origLinkedRespSheet, migrationPlan) {
-  const headersHavePropogated = function(sheet, areas) {
-    const colHeaderIndex = makeColumnHeaderIndex_(getColumnHeaders_(sheet));
-    return areas.every(function(area) {
-      const basic = form_additionalContextTitle_basic_(area);
-      const advanced = form_additionalContextTitle_advanced_(area);
-      return colHeaderIndex[basic] && colHeaderIndex[advanced];
-    });
-  }
-  
+  const getUnpropHeaders = function() { return getUnpropogatedHeaders(origLinkedRespSheet, migrationPlan.migrateFrom.areas); }
   var tries = 0;
-  while(!headersHavePropogated(origLinkedRespSheet, migrationPlan.migrateFrom.areas)) {
+  while(getUnpropHeaders().length > 0) {
+    console.log("column headers didn't propogate within " + tries + " tries.  waiting...");
     Utilities.sleep(1000);
-    if (tries++ > 10) {
-      throw "raw response sheet never received updated column headers.  aborting."
+    if (tries++ > 30) {
+      const unprop = getUnpropHeaders();
+      console.log("column headers didn't propogate within timeout.  missing: " + unprop);
+      throw "some updated column headers didn't propogate to raw response sheet.  outstanding: " + unprop;
     }
   } 
 }

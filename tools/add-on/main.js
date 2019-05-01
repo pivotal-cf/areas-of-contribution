@@ -1,7 +1,8 @@
 function onOpen() {
   SpreadsheetApp.getUi().createMenu("Areas of Contribution")
   .addItem("Troubleshooting: Set skill version...", "setSkillVersionUI_")
-  .addItem("Migrate...", "migrateUI_")
+  .addSeparator()
+  .addItem("Experimental: Migrate...", "migrateUI_")
   .addToUi();
 }
 

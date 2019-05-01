@@ -8,6 +8,7 @@
 // see: waitUntilTitlesHavePropogatedToOriginalSheet_
 function updateContextItemTitles_(form) {
   var currentPageTitle;
+  var countTitleUpdates = 0;
   form.getItems().forEach(function(item) {
     if (item.getType() === FormApp.ItemType.PAGE_BREAK) {
       currentPageTitle = item.getTitle();
@@ -17,7 +18,9 @@ function updateContextItemTitles_(form) {
       return;
     }
     item.asParagraphTextItem().setTitle(form_additionalContextTitle_(currentPageTitle));
+    countTitleUpdates++;
   });
+  return countTitleUpdates;
 }
 
 

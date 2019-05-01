@@ -1,4 +1,5 @@
 function migrateCore_(spreadsheet, toGitRef) {
+  console.log("starting migration for " + spreadsheet.getId());
   assertConfigOk_(spreadsheet);    // ensure the current is internally consistent
   const sheetConfig = configLoad_(spreadsheet);  
   const origLinkedRespSheet = getConfiguredRawRespSheet_(spreadsheet, sheetConfig);
@@ -19,29 +20,34 @@ function migrateCore_(spreadsheet, toGitRef) {
   
   // { migrateFrom: { gitRef, areas, skills }, migrateTo: { gitRef, areas, skills } }
   const migrationPlan = fetchMigrationPlan(fromGitRef, toGitRef);
+  console.log("fetched migration from " + fromGitRef + " to " + toGitRef);
 
   const skillsSheet = spreadsheet.getSheetByName("Skills");
   validateCurrentSkillsSheet_(skillsSheet, migrationPlan.migrateFrom);
   
   validateFormRewrites_(form, migrationPlan);
   
-  // we've validated as much as we can....
-  
   // non-destructive updates before unlinking form
-  updateContextItemTitles_(form);  // these changes need to propogate to the sheet before we unlink
+  const titleUpdates = updateContextItemTitles_(form);  // these changes need to propogate to the sheet before we unlink
+  if (titleUpdates != 2 * migrationPlan.migrateFrom.areas.length) { // one title for basic, one for advanced
+   throw "title updates only applied to " + titleUpdates + " but we were expecting " + (2 * migrationPlan.migrateFrom.areas.length);
+  }
   updateLandingPageText_(form);
+
+  // don't unlink form from sheet until title changes propogate to sheet
+  waitUntilTitlesHavePropogatedToOriginalSheet_(origLinkedRespSheet, migrationPlan);
+   
+  console.log("migration pre-checks passed, starting changes...");
+  const wasAcceptingResponses = form.isAcceptingResponses();
+  form.setAcceptingResponses(false);
   
+  // we've validated as much as we can....
+   
   sheetConfig.updateExisting(configOption_LastMigration, "In-flight as of " + new Date());
   sheetConfig.updateExisting(configOption_SkillsRepoRelease,
                              "In-flight from " + migrationPlan.migrateFrom.gitRef 
                               + " to " + migrationPlan.migrateTo.gitRef);
- 
-  const wasAcceptingResponses = form.isAcceptingResponses();
-  form.setAcceptingResponses(false);
-
-  // don't unlink form from sheet until title changes propogate to sheet
-  waitUntilTitlesHavePropogatedToOriginalSheet_(origLinkedRespSheet, migrationPlan);
-  
+   
   // unlink form, this way we can make further edits to the form without modifying the old response sheet
   form.removeDestination();
   origLinkedRespSheet.setName("Old Responses as of " + (new Date()).toISOString()); 
@@ -80,6 +86,7 @@ function migrateCore_(spreadsheet, toGitRef) {
   form.setAcceptingResponses(wasAcceptingResponses);
   
   const successMessage = "Migrated form and sheet from " + fromGitRef + " to " + toGitRef + ".\n" + migrationResult;
+  console.log(successMessage);
   return successMessage;
 }
 
