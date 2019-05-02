@@ -4,8 +4,8 @@
 // we do this before unlinking so that the column headers on the original data sheet become unique
 // then we can migrate them by their unique title
 //
-// these changes take some time to propogate to the sheet.
-// see: waitUntilTitlesHavePropogatedToOriginalSheet_
+// these changes take some time to propagate to the sheet.
+// see: waitUntilTitlesHavePropagatedToOriginalSheet_
 function updateContextItemTitles_(form) {
   var currentPageTitle;
   var countTitleUpdates = 0;

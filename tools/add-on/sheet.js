@@ -26,7 +26,7 @@ function findLinkedSheet_(spreadsheet, form) {
   return linkedSheets[0];  
 }
 
-function getUnpropogatedHeaders(sheet, areas) {
+function getUnpropagatedHeaders(sheet, areas) {
   const colHeaderIndex = makeColumnHeaderIndex_(getColumnHeaders_(sheet));
   var unprop = [];
   areas.forEach(function(area) {
@@ -40,19 +40,18 @@ function getUnpropogatedHeaders(sheet, areas) {
   return unprop;  
 }
 
-// don't unlink until title changes propogate to the google sheet
+// don't unlink until title changes propagate to the google sheet
 // if the form is unlinked too soon after the titles are changed, the title changes
 // won't make it to the sheet, which results in the sheet being inconsistent with the form
-function waitUntilTitlesHavePropogatedToOriginalSheet_(origLinkedRespSheet, migrationPlan) {
-  const getUnpropHeaders = function() { return getUnpropogatedHeaders(origLinkedRespSheet, migrationPlan.migrateFrom.areas); }
+function waitUntilTitlesHavePropagatedToOriginalSheet_(origLinkedRespSheet, migrationPlan) {
+  const getUnpropHeaders = function() { return getUnpropagatedHeaders(origLinkedRespSheet, migrationPlan.migrateFrom.areas); }
   var tries = 0;
   while(getUnpropHeaders().length > 0) {
-    console.log("column headers didn't propogate within " + tries + " tries.  waiting...");
+    console.log("column headers didn't propagate within " + tries + " tries.  waiting...");
     Utilities.sleep(1000);
     if (tries++ > 30) {
       const unprop = getUnpropHeaders();
-      console.log("column headers didn't propogate within timeout.  missing: " + unprop);
-      throw "some updated column headers didn't propogate to raw response sheet.  outstanding: " + unprop;
+      throw "column header updates didn't propagate to raw response sheet.  outstanding: " + unprop;
     }
   } 
 }

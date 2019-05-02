@@ -33,14 +33,14 @@ function migrateCore_(spreadsheet, toGitRef) {
   validateFormRewrites_(form, migrationPlan);
   
   // non-destructive updates before unlinking form
-  const titleUpdates = updateContextItemTitles_(form);  // these changes need to propogate to the sheet before we unlink
+  const titleUpdates = updateContextItemTitles_(form);  // these changes need to propagate to the sheet before we unlink
   if (titleUpdates != 2 * migrationPlan.migrateFrom.areas.length) { // one title for basic, one for advanced
    throw "title updates only applied to " + titleUpdates + " but we were expecting " + (2 * migrationPlan.migrateFrom.areas.length);
   }
   updateLandingPageText_(form);
 
-  // don't unlink form from sheet until title changes propogate to sheet
-  waitUntilTitlesHavePropogatedToOriginalSheet_(origLinkedRespSheet, migrationPlan);
+  // don't unlink form from sheet until title changes propagate to sheet
+  waitUntilTitlesHavePropagatedToOriginalSheet_(origLinkedRespSheet, migrationPlan);
    
   console.log("migration pre-checks passed, starting changes...");
   const wasAcceptingResponses = form.isAcceptingResponses();
