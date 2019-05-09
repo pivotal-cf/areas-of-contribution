@@ -1,0 +1,3 @@
+language: go
+
+script: go run ./tools/tests/sanity_check.go -in ./yaml
