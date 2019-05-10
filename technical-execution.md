@@ -27,7 +27,7 @@ Another example of success in this area: You join a team whose main responsibili
 <td valign="top"><ul>
   <li>Asks relevant questions on stories</li>
 
-  <li>Provides basic input into pair's progress</li>
+  <li>Provides basic input into pair's progress on a story while pairing</li>
 
   <li>Provides coherent and informative updates at standup</li>
 

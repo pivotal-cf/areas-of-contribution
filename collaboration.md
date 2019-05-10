@@ -26,8 +26,6 @@ One example of success in this area: One of your teammates has a frequent habit 
 <td valign="top"><ul>
   <li>Communicates clearly and kindly with team mates</li>
 
-  <li>Actively leaves space for others to share their ideas</li>
-
   <li>Is conscious and respectful of team's agreements (eg: core working hours)</li>
 
   <li>Communicates with the intent to learn, and creates a safe space for others to disagree</li>
@@ -37,6 +35,8 @@ One example of success in this area: One of your teammates has a frequent habit 
 
 <!-- P2 -->
 <td valign="top"><ul>
+  <li>Shares thoughts in a way that fosters further conversation and leaves space for others</li>
+
   <li>Actively works to build a more inclusive team</li>
 
   <li>Takes responsibility for their mistakes and/or misunderstandings, and can then focus on future improvements at the personal or team level</li>
@@ -51,6 +51,8 @@ One example of success in this area: One of your teammates has a frequent habit 
 <!-- P3 -->
 <td valign="top"><ul>
   <li>Sets an example for clear and kind communication in a disagreement</li>
+
+  <li>Actively works to ensure quieter teammates have room to share and get recognition for their ideas</li>
 
   <li>Openly reflects on the impact of their own behaviour and makes improvements</li>
 
@@ -68,6 +70,8 @@ One example of success in this area: One of your teammates has a frequent habit 
   <li>Strongly facilitates decision-making where there are several conflicting viewpoints</li>
 
   <li>Knows their blind spots and actively works towards managing them</li>
+
+  <li>Coaches pivots on how to facilitate conversations and meetings that allow other quieter teammates to share and get recognition for their ideas</li>
 
   <li>Skillfully speaks up to address exclusionary behaviour in the moment</li>
 
