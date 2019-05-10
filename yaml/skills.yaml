@@ -420,6 +420,10 @@ skills:
     architecture)
   area: project-leadership
   level: p1
+- id: se64b997a
+  description: Is comfortable letting go of a priority that they have worked on
+  area: project-leadership
+  level: p1
 - id: s1e24c45c
   description: >-
     Is responsible for creating and upholding team discipline. This includes setting an example of
@@ -455,6 +459,10 @@ skills:
   description: >-
     Able to anchor small/medium-sized teams with well-defined product priorities and technical
     direction
+  area: project-leadership
+  level: p2
+- id: s4d63bf92
+  description: Recognizes when their pair or team would benefit from cutting scope, and builds consensus for it
   area: project-leadership
   level: p2
 - id: se72b2571
@@ -498,6 +506,10 @@ skills:
     dropped
   area: project-leadership
   level: p3
+- id: s1eb12576
+  description: Helps team and leadership recognize and agree on the right scope to cut from a large track or product
+  area: project-leadership
+  level: p3
 - id: s03ef2154
   description: Identifies systemic/long-running issues on their team and are able to intervene to resolve them
   area: project-leadership
@@ -536,6 +548,14 @@ skills:
     problems and sharing that with team members on a story level
   area: project-leadership
   level: p4
+- id: s220f7b91
+  description: Collaborates across teams and stakeholders to cut scope and re-align engineering effort with leadership-level priorities
+  area: project-leadership
+  level: p4
+- id: s79669033
+  description: Regularly collaborates with leadership to align engineering efforts with strategic needs of our organization
+  area: project-leadership
+  level: p5
 - id: s6f54275a
   description: >-
     Volunteers for and is curious about stories/chores in the backlog that are important but less
