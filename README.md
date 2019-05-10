@@ -1,5 +1,7 @@
 # Areas Of Contribution
 
+[![Build Status](https://travis-ci.org/pivotal-cf/areas-of-contribution.svg?branch=master)](https://travis-ci.org/pivotal-cf/areas-of-contribution)
+
 This *public* repo contains the set of skills, organized by "area" and "P-level", that CF Engineering management in SF and LA use when gathering feedback and evaluating engineers.
 
 Have questions about how to interpret all of this?  Ask your manager, or open an issue on this repo!
