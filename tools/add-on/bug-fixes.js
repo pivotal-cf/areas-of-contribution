@@ -9,12 +9,9 @@ function bugfix_normalized_impact_() {
   console.log("starting bugfix_normalized_impact");
   const ui = SpreadsheetApp.getUi();
   
-
-  
   const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  assertConfigOk_(spreadsheet);    // ensure the current is internally consistent
+  assertConfigExists_(spreadsheet);
   const sheetConfig = configLoad_(spreadsheet);
-  
   const currentSheetVersion = sheetConfig.get(configOption_sheetVersion);
   const expectedSheetVersion = "2.0.0";
   const willUpgradeToVersion = "2.0.1";

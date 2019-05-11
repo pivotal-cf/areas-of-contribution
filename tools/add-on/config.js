@@ -38,11 +38,8 @@ function configLoad_(spreadsheet) {
 }
 
 function assertConfigOk_(spreadsheet) {
-  const configSheet = spreadsheet.getSheetByName("Config");
-  if (!configSheet) {
-    throw "missing expected tab 'Config'.   Please upgrade to Feedback Response spreadsheet v2 before using this tool"
-  }
-  
+  const configSheet = assertConfigExists_(spreadsheet);
+
   const magicCellRef = "C4";  // TODO: make this not brittle
   const status = configSheet.getRange(magicCellRef).getValue().toString();
   if (!status) {
@@ -51,4 +48,13 @@ function assertConfigOk_(spreadsheet) {
   if (status !== "Ok") {
     throw "Config sheet: " + status;
   }
+}
+
+
+function assertConfigExists_(spreadsheet) {
+  const configSheet = spreadsheet.getSheetByName("Config");
+  if (!configSheet) {
+    throw "missing expected tab 'Config'.   Please upgrade to Feedback Response spreadsheet v2 before using this tool"
+  }
+  return configSheet;
 }
