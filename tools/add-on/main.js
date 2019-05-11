@@ -3,6 +3,8 @@ function onOpen() {
   .addItem("Troubleshooting: Set skill version...", "setSkillVersionUI_")
   .addSeparator()
   .addItem("Experimental: Migrate...", "migrateUI_")
+  .addSeparator()
+  .addItem("Bugfix: Normalization...", "bugfix_normalized_impact_")
   .addToUi();
 }
 

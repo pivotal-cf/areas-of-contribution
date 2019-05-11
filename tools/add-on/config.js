@@ -1,6 +1,7 @@
 var configOption_SkillsRepoRelease = "Skills repo release";
 var configOption_LastMigration = "Last migration";
 var configOption_rawResponsesSheetName = "Raw Responses Sheet Name";
+var configOption_sheetVersion = "Sheet version";
 
 function configLoad_(spreadsheet) {
   const configSheet = spreadsheet.getSheetByName("Config");
