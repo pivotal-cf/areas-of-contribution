@@ -6,22 +6,16 @@ Ability to weigh several factors when making technical decisions. Some factors t
 One example of success in this area: You have been noticing a lot of bugs arising the output of <command 1> and <command 2>. Additionally, you often see stories in the backlog around adding the same sort of features to both commands. You look through the code and notice that even though both commands are following separate code paths they are trying to accomplish roughly similar things. You share your findings with the team, and embark on a path to explore how to have both commands to follow similar code paths. After coming up with a plan, you get buy-in from your PM and other engineers to do this refactor as part of a larger epic. While you do this refactor you consider the maintainability and longer term extensibility of the system while you consolidate these paths. Finally, over time you observe that the number of bugs around those 2 commands decrease, and the team feels more comfortable navigating around that part of the codebase.
 
 ---
-### Proposed Levels and Skills
 
 <table>
 <tbody>
 
 <thead>
-<td><strong>P1</strong></td>
-<td><strong>P2</strong></td>
-<td><strong>P3</strong></td>
-<td><strong>P4</strong></td>
-
+<td>Level</td><td>Skills</td>
 </thead>
 
 <tr>
-
-<!-- P1 -->
+<td><strong>P1</strong></td>
 <td valign="top"><ul>
   <li>Makes technical decisions, resulting in features that work to complete a story.</li>
 
@@ -29,15 +23,19 @@ One example of success in this area: You have been noticing a lot of bugs arisin
 
   <li>Observes and follows existing patterns/practices on the team.</li>
 </ul></td>
+</tr>
 
-<!-- P2 -->
+<tr>
+<td><strong>P2</strong></td>
 <td valign="top"><ul>
   <li>Surfaces and discusses various factors (outlined on next page) when approaching a technical decision, with support from other pivots to make the final decision.</li>
 
   <li>Makes sound technical decisions that conform to the team's existing architecture or vision.</li>
 </ul></td>
+</tr>
 
-<!-- P3 -->
+<tr>
+<td><strong>P3</strong></td>
 <td valign="top"><ul>
   <li>Factors in maintenance/impact on feedback loops/impact on readbility and onboarding as parameter when making technical decisions</li>
 
@@ -55,8 +53,10 @@ One example of success in this area: You have been noticing a lot of bugs arisin
 
   <li>Able to recognize when new information emerges that requires changes in existing technical design; able to work with PM/leadership/experienced engineers to adapt existing technical decisions to the new information</li>
 </ul></td>
+</tr>
 
-<!-- P4 -->
+<tr>
+<td><strong>P4</strong></td>
 <td valign="top"><ul>
   <li>Takes an outcome-oriented mindset to technical decision-making.</li>
 
@@ -70,6 +70,8 @@ One example of success in this area: You have been noticing a lot of bugs arisin
 
   <li>Able to explore options and make technical decisions (without painting project in the corner) when there are unknowns in the domain</li>
 </ul></td>
-
 </tr>
+
+
+
 </tbody></table>

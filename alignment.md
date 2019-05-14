@@ -6,27 +6,23 @@ You take on the most important challenge with an open mind; to what degree are y
 Example of success in this area: You would like to work on <project 1> next, to improve your technical execution skill. Leadership would like you to rotate to <project 2>, which is under-allocated and needs your experience and guidance. You have already been on this team before, and would probably not choose to take on this challenge of your own volition. However, you agree to the change in plans, approach <project 2> with positivity, find ways to grow your skills in other areas while you are there, and are able to address the challenges on the team.
 
 ---
-### Proposed Levels and Skills
 
 <table>
 <tbody>
 
 <thead>
-<td><strong>P1</strong></td>
-<td><strong>P2</strong></td>
-<td><strong>P3</strong></td>
-<td><strong>P4</strong></td>
-
+<td>Level</td><td>Skills</td>
 </thead>
 
 <tr>
-
-<!-- P1 -->
+<td><strong>P1</strong></td>
 <td valign="top"><ul>
   <li>Volunteers for and is curious about stories/chores in the backlog that are important but less interesting</li>
 </ul></td>
+</tr>
 
-<!-- P2 -->
+<tr>
+<td><strong>P2</strong></td>
 <td valign="top"><ul>
   <li>Volunteers for tedious/unglamorous but necessary tasks, such as chores/stories/action items/support tickets/open GitHub issues, and drives them to completion</li>
 
@@ -36,8 +32,10 @@ Example of success in this area: You would like to work on <project 1> next, to 
 
   <li>When asked, gives feedback to team leadership about less-than-ideal team experiences</li>
 </ul></td>
+</tr>
 
-<!-- P3 -->
+<tr>
+<td><strong>P3</strong></td>
 <td valign="top"><ul>
   <li>When presented with a less-desired but important project, can adapt their skills and make a positive impact on the team</li>
 
@@ -47,8 +45,10 @@ Example of success in this area: You would like to work on <project 1> next, to 
 
   <li>Can identify useful context to assess team health</li>
 </ul></td>
+</tr>
 
-<!-- P4 -->
+<tr>
+<td><strong>P4</strong></td>
 <td valign="top"><ul>
   <li>Frames less-interesting but high-priority work to highlight the value and learning-opportunity, improving the entire team’s outlook on that work</li>
 
@@ -62,6 +62,8 @@ Example of success in this area: You would like to work on <project 1> next, to 
 
   <li>Surfaces uncomfortable issues affecting the team in a kind, honest, and direct manner; keeps leadership in the loop while working to resolve the issues</li>
 </ul></td>
-
 </tr>
+
+
+
 </tbody></table>

@@ -8,22 +8,16 @@ One example of success in this area: You are trusted to drive stories to complet
 Another example of success in this area: You join a team whose main responsibility is integrating assets from other teams, and deploying them to a long, running production environment. You have minimal experience with operating the CF platform at scale. You are able to learn the tribal knowledge on the team quickly, and are able to execute on stories in the backlog with little guidance. Soon after, other pairs rely on you to onboard new team members, approach you with questions relating to the domain, and to reliably drive to completion uncertain/risky/technically complex stories.
 
 ---
-### Proposed Levels and Skills
 
 <table>
 <tbody>
 
 <thead>
-<td><strong>P1</strong></td>
-<td><strong>P2</strong></td>
-<td><strong>P3</strong></td>
-<td><strong>P4</strong></td>
-
+<td>Level</td><td>Skills</td>
 </thead>
 
 <tr>
-
-<!-- P1 -->
+<td><strong>P1</strong></td>
 <td valign="top"><ul>
   <li>Asks relevant questions on stories</li>
 
@@ -39,8 +33,10 @@ Another example of success in this area: You join a team whose main responsibili
 
   <li>Clarifies product requirements on stories, when necessary</li>
 </ul></td>
+</tr>
 
-<!-- P2 -->
+<tr>
+<td><strong>P2</strong></td>
 <td valign="top"><ul>
   <li>Able to lead a pair on well-defined tracks of work; can solo on well-defined tracks, if needed</li>
 
@@ -56,8 +52,10 @@ Another example of success in this area: You join a team whose main responsibili
 
   <li>Can onboard pairs into well-defined stories</li>
 </ul></td>
+</tr>
 
-<!-- P3 -->
+<tr>
+<td><strong>P3</strong></td>
 <td valign="top"><ul>
   <li>Able to lead a pair on all tracks of work; can solo on any story in the backlog, if needed</li>
 
@@ -73,8 +71,10 @@ Another example of success in this area: You join a team whose main responsibili
 
   <li>Can ramp up quickly to become productive on most CF teams</li>
 </ul></td>
+</tr>
 
-<!-- P4 -->
+<tr>
+<td><strong>P4</strong></td>
 <td valign="top"><ul>
   <li>Identifies long-running/systemic technical problems (eg: testing anti-patterns, poor code health) affecting the team and drives intervention</li>
 
@@ -90,6 +90,8 @@ Another example of success in this area: You join a team whose main responsibili
 
   <li>Can navigate their way through legacy systems and improve throughput of the team (eg: notices complex code paths are slowing down feature delivery, facilitates conversations with the team on how to simplify them, gets buy-in from PM+leadership to prioritize this work, drives it to completion with the team)</li>
 </ul></td>
-
 </tr>
+
+
+
 </tbody></table>

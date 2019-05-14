@@ -6,30 +6,25 @@ Passion for supporting our customers on their PCF journey, and ability to approa
 One example of success in this area: Your PM notes that there is an open support ticket that the team should help with. You don’t have much context on the issue, but go into the Slack channel with an open mind. You ask good foundational questions, learning where assumptions have been made, and where evidence has been found. After speaking with the customer and with Pivotal Support, you realize that this is a known issue in an upstream product, and point support in the right direction. You explain how you got to this conclusion, and stay in the Slack channel until it’s clear that the issue has been resolved and the customer is satisfied with the outcome.
 
 ---
-### Proposed Levels and Skills
 
 <table>
 <tbody>
 
 <thead>
-<td><strong>P1</strong></td>
-<td><strong>P2</strong></td>
-<td><strong>P3</strong></td>
-<td><strong>P4</strong></td>
-<td><strong>P5</strong></td>
-
+<td>Level</td><td>Skills</td>
 </thead>
 
 <tr>
-
-<!-- P1 -->
+<td><strong>P1</strong></td>
 <td valign="top"><ul>
   <li>Responds with engagement to interrupts; can enlist help</li>
 
   <li>Explains their suggestions and their approach to an interrupt or support issue.</li>
 </ul></td>
+</tr>
 
-<!-- P2 -->
+<tr>
+<td><strong>P2</strong></td>
 <td valign="top"><ul>
   <li>Makes forward progress on most interrupts</li>
 
@@ -39,8 +34,10 @@ One example of success in this area: Your PM notes that there is an open support
 
   <li>Resolves familiar issues when encountered again</li>
 </ul></td>
+</tr>
 
-<!-- P3 -->
+<tr>
+<td><strong>P3</strong></td>
 <td valign="top"><ul>
   <li>Assesses interrupts and can identify what someone is really asking for</li>
 
@@ -52,8 +49,10 @@ One example of success in this area: Your PM notes that there is an open support
 
   <li>Approaches conversations about customer constraints/culture/IT practices with a positive attitude and desire to understand</li>
 </ul></td>
+</tr>
 
-<!-- P4 -->
+<tr>
+<td><strong>P4</strong></td>
 <td valign="top"><ul>
   <li>Recognizes patterns in interrupts, and channels that feedback to drive product improvements</li>
 
@@ -63,8 +62,10 @@ One example of success in this area: Your PM notes that there is an open support
 
   <li>Maintains context and switch between different to resolve an interrupt</li>
 </ul></td>
+</tr>
 
-<!-- P5 -->
+<tr>
+<td><strong>P5</strong></td>
 <td valign="top"><ul>
   <li>Understands support as a first-class feature of the product; shapes product definition based on that understanding</li>
 
@@ -72,6 +73,8 @@ One example of success in this area: Your PM notes that there is an open support
 
   <li>Teaches others how to explore in an unknown/unfamiliar (customer) environment</li>
 </ul></td>
-
 </tr>
+
+
+
 </tbody></table>

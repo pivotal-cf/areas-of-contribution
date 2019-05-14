@@ -6,28 +6,23 @@ You understand the importance of maintaining feedback loops on an engineering te
 One example of success in this area: Your team is not very disciplined about build failures in CI. You start a conversation with your team to understand what could make CI more useful and share the pain you observe when CI is red. After discussing it, you make a chore to refactor your concourse pipeline, in order to get more actionable signals from each portion of the pipeline. Over time you use these signals to incrementally improve your CI pipeline and educate your teammate's about the importance of integrating early and often. You are eventually able to get your team to a point where CI being red is no longer the norm.
 
 ---
-### Proposed Levels and Skills
 
 <table>
 <tbody>
 
 <thead>
-<td><strong>P1</strong></td>
-<td><strong>P2</strong></td>
-<td><strong>P3</strong></td>
-<td><strong>P4</strong></td>
-<td><strong>P5</strong></td>
-
+<td>Level</td><td>Skills</td>
 </thead>
 
 <tr>
-
-<!-- P1 -->
+<td><strong>P1</strong></td>
 <td valign="top"><ul>
   <li>Follows along with existing engineering process on teams (eg: TDD, pairing, CI and Tracker discipline, etc.)</li>
 </ul></td>
+</tr>
 
-<!-- P2 -->
+<tr>
+<td><strong>P2</strong></td>
 <td valign="top"><ul>
   <li>Understands and explains the importance of improving feedback loops</li>
 
@@ -43,8 +38,10 @@ One example of success in this area: Your team is not very disciplined about bui
 
   <li>Provides feedback to teammates.</li>
 </ul></td>
+</tr>
 
-<!-- P3 -->
+<tr>
+<td><strong>P3</strong></td>
 <td valign="top"><ul>
   <li>Understands and explains the XP/Agile principles behind specific practices of team's engineering process</li>
 
@@ -56,8 +53,10 @@ One example of success in this area: Your team is not very disciplined about bui
 
   <li>Provides T.A.S.K feedback to teammates, that helps teammates grow</li>
 </ul></td>
+</tr>
 
-<!-- P4 -->
+<tr>
+<td><strong>P4</strong></td>
 <td valign="top"><ul>
   <li>Provides challenging feedback (kindly) and coaches teammates to change their behaviour</li>
 
@@ -71,11 +70,15 @@ One example of success in this area: Your team is not very disciplined about bui
 
   <li>Continually works to evolve the engineering process on their teams</li>
 </ul></td>
+</tr>
 
-<!-- P5 -->
+<tr>
+<td><strong>P5</strong></td>
 <td valign="top"><ul>
   <li>Innovates on engineering process and evangelizes that change across the org. Follows through by helping relevant and interested teams adopt it successfully</li>
 </ul></td>
-
 </tr>
+
+
+
 </tbody></table>
