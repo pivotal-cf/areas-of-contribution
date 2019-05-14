@@ -6,27 +6,23 @@ You understand how software makes it from an engineering team to the customer, f
 One example of success in this area: An investigation in your backlog has been blocked for days. Your teammates have made a valiant effort, but no one has found a way forward. You find a way to implement the feature without needing the blocking dependency. You outline a plan for integrating the dependency once it’s ready, and talk to the upstream team to finalize it.
 
 ---
-### Proposed Levels and Skills
 
 <table>
 <tbody>
 
 <thead>
-<td><strong>P1</strong></td>
-<td><strong>P2</strong></td>
-<td><strong>P3</strong></td>
-<td><strong>P4</strong></td>
-
+<td>Level</td><td>Skills</td>
 </thead>
 
 <tr>
-
-<!-- P1 -->
+<td><strong>P1</strong></td>
 <td valign="top"><ul>
   <li>Is learning about how their team's artifacts flow to the customer (eg: release process, CI pipelines, dependencies)</li>
 </ul></td>
+</tr>
 
-<!-- P2 -->
+<tr>
+<td><strong>P2</strong></td>
 <td valign="top"><ul>
   <li>Recognizes symptoms of reduced flow on their team (eg: persistently red CI, flaky tests, manual release process)</li>
 
@@ -34,8 +30,10 @@ One example of success in this area: An investigation in your backlog has been b
 
   <li>Resolves flow-related pain using modifications to existing process or tools</li>
 </ul></td>
+</tr>
 
-<!-- P3 -->
+<tr>
+<td><strong>P3</strong></td>
 <td valign="top"><ul>
   <li>Recognizes when and why team has reduced flow; surfaces the feedback to team leadership and at team retros</li>
 
@@ -53,8 +51,10 @@ One example of success in this area: An investigation in your backlog has been b
 
   <li>Breaks out of the existing tools or processes when necessary, to reframe and fix a flow issue</li>
 </ul></td>
+</tr>
 
-<!-- P4 -->
+<tr>
+<td><strong>P4</strong></td>
 <td valign="top"><ul>
   <li>Recognizes systemic bottlenecks in delivering value to customers</li>
 
@@ -68,6 +68,8 @@ One example of success in this area: An investigation in your backlog has been b
 
   <li>Can coordinate, execute, deliver to customer on complex integrations amongst multiple teams</li>
 </ul></td>
-
 </tr>
+
+
+
 </tbody></table>

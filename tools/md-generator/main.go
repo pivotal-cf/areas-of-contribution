@@ -47,9 +47,10 @@ type Skill struct {
 	Area        string
 	Level       string
 }
+
 type DocsSkillLevel struct {
 	Level  string
-	Skills []string
+	Skills []Skill
 }
 
 type DocsData struct {
@@ -60,12 +61,12 @@ type DocsData struct {
 }
 
 func buildDocsSkillLevels(areaID string, skills []Skill) []DocsSkillLevel {
-	groupedByLevel := map[string][]string{}
+	groupedByLevel := map[string][]Skill{}
 	for _, skill := range skills {
 		if skill.Area != areaID {
 			continue
 		}
-		groupedByLevel[skill.Level] = append(groupedByLevel[skill.Level], skill.Description)
+		groupedByLevel[skill.Level] = append(groupedByLevel[skill.Level], skill)
 	}
 	levels := []string{}
 	for level := range groupedByLevel {
@@ -149,23 +150,22 @@ const skillAreaTemplate = `<!--- This file was GENERATED.  Do not edit it direct
 {{.Description}}
 
 ---
-### Proposed Levels and Skills
 
 <table>
 <tbody>
 
 <thead>
-{{ range .SkillLevels }}<td><strong>{{.Level}}</strong></td>
-{{ end }}
+<td>Level</td><td>Skills</td>
 </thead>
 
-<tr>{{ range .SkillLevels }}
-
-<!-- {{.Level}} -->
+{{ range .SkillLevels }}<tr>
+<td><strong>{{.Level}}</strong></td>
 <td valign="top"><ul>{{ range .Skills }}
-  <li>{{.}}</li>
-{{ end }}</ul></td>{{ end }}
-
+  <li>{{.Description}}</li>
+{{ end }}</ul></td>
 </tr>
+
+{{ end }}
+
 </tbody></table>
 `

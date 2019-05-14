@@ -6,23 +6,16 @@ Ability to communicate clearly, proactively, and kindly. You initiate the commun
 One example of success in this area: One of your teammates has a frequent habit of interrupting others in meetings, especially when they’re excited about an idea. You find them after a meeting, and directly but kindly deliver this feedback. They don’t know what you’re talking about. You ask if it would be okay to stop them next time this happens. They agree. In the future, the team feels comfortable with giving feedback about interrupting in meetings in the moment.
 
 ---
-### Proposed Levels and Skills
 
 <table>
 <tbody>
 
 <thead>
-<td><strong>P1</strong></td>
-<td><strong>P2</strong></td>
-<td><strong>P3</strong></td>
-<td><strong>P4</strong></td>
-<td><strong>P5</strong></td>
-
+<td>Level</td><td>Skills</td>
 </thead>
 
 <tr>
-
-<!-- P1 -->
+<td><strong>P1</strong></td>
 <td valign="top"><ul>
   <li>Communicates clearly and kindly with team mates</li>
 
@@ -32,8 +25,10 @@ One example of success in this area: One of your teammates has a frequent habit 
 
   <li>Pairs easily/successfully with most Pivots and/or teams</li>
 </ul></td>
+</tr>
 
-<!-- P2 -->
+<tr>
+<td><strong>P2</strong></td>
 <td valign="top"><ul>
   <li>Shares thoughts in a way that fosters further conversation and leaves space for others</li>
 
@@ -47,8 +42,10 @@ One example of success in this area: One of your teammates has a frequent habit 
 
   <li>Initiates cross team communication when necessary</li>
 </ul></td>
+</tr>
 
-<!-- P3 -->
+<tr>
+<td><strong>P3</strong></td>
 <td valign="top"><ul>
   <li>Sets an example for clear and kind communication in a disagreement</li>
 
@@ -64,8 +61,10 @@ One example of success in this area: One of your teammates has a frequent habit 
 
   <li>Brings teams together by promoting cross team collaboration (including orchestrating logistics, facilitating group meetings)</li>
 </ul></td>
+</tr>
 
-<!-- P4 -->
+<tr>
+<td><strong>P4</strong></td>
 <td valign="top"><ul>
   <li>Strongly facilitates decision-making where there are several conflicting viewpoints</li>
 
@@ -77,11 +76,15 @@ One example of success in this area: One of your teammates has a frequent habit 
 
   <li>Coaches Pivots to recognize areas which could be benefitted by cross team collaboration</li>
 </ul></td>
+</tr>
 
-<!-- P5 -->
+<tr>
+<td><strong>P5</strong></td>
 <td valign="top"><ul>
   <li>Is a source of guidance across Pivotal in areas of productively managing personal conflict and/or contention</li>
 </ul></td>
-
 </tr>
+
+
+
 </tbody></table>

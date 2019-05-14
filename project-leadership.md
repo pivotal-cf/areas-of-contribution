@@ -7,22 +7,16 @@ You ensure the productivity and health of your engineering team. You can act as 
 One example of success in this area: You are anchoring your team. You’ve been working with your PM and Designer to outline a new epic, and would like to share your learnings with the team. You facilitate a meeting where folks brainstorm and share their thoughts. After the meeting, you work with the PM to scope out explorations that the team can do to de-risk the epic. You incorporate the output of the explorations, your knowledge of the problem, and work with the PM to choose a path forward. You share the outcomes with your team, and continue to be open to input from them as the features are developed.
 
 ---
-### Proposed Levels and Skills
 
 <table>
 <tbody>
 
 <thead>
-<td><strong>P1</strong></td>
-<td><strong>P2</strong></td>
-<td><strong>P3</strong></td>
-<td><strong>P4</strong></td>
-
+<td>Level</td><td>Skills</td>
 </thead>
 
 <tr>
-
-<!-- P1 -->
+<td><strong>P1</strong></td>
 <td valign="top"><ul>
   <li>Shows curiosity in learning about an anchor’s role on their team, and is ready to shadow their team anchor</li>
 
@@ -30,8 +24,10 @@ One example of success in this area: You are anchoring your team. You’ve been 
 
   <li>Discusses team “things” with their anchor (eg: team process, team health/morale, product, architecture)</li>
 </ul></td>
+</tr>
 
-<!-- P2 -->
+<tr>
+<td><strong>P2</strong></td>
 <td valign="top"><ul>
   <li>Is responsible for creating and upholding team discipline. This includes setting an example of following team processes themselves, holding other team members accountable, and fostering a culture of providing open and honest feedback about team’s artifacts (product, repos, process.)</li>
 
@@ -47,8 +43,10 @@ One example of success in this area: You are anchoring your team. You’ve been 
 
   <li>Able to anchor small/medium-sized teams with well-defined product priorities and technical direction</li>
 </ul></td>
+</tr>
 
-<!-- P3 -->
+<tr>
+<td><strong>P3</strong></td>
 <td valign="top"><ul>
   <li>Able to anchor teams with emerging product priorities and technical direction. They are able to help identify unknowns, and work with leadership to resolve them.</li>
 
@@ -64,8 +62,10 @@ One example of success in this area: You are anchoring your team. You’ve been 
 
   <li>Is a safety-net for the team, and is able to intervene when they see tasks/priorities getting dropped</li>
 </ul></td>
+</tr>
 
-<!-- P4 -->
+<tr>
+<td><strong>P4</strong></td>
 <td valign="top"><ul>
   <li>Identifies systemic/long-running issues on their team and are able to intervene to resolve them</li>
 
@@ -81,6 +81,8 @@ One example of success in this area: You are anchoring your team. You’ve been 
 
   <li>Promotes/facilitates balanced decision-making on the team by demonstrating awareness of customer problems and sharing that with team members on a story level</li>
 </ul></td>
-
 </tr>
+
+
+
 </tbody></table>
