@@ -14,7 +14,7 @@ areas:
 
     Another example of success in this area: You join a team whose main responsibility is
     integrating assets from other teams, and deploying them to a long, running production
-    environment. You have minimal experience with operating the CF platform at scale. You are able
+    environment. You have minimal experience with operating the platform at scale. You are able
     to learn the tribal knowledge on the team quickly, and are able to execute on stories in the
     backlog with little guidance. Soon after, other pairs rely on you to onboard new team members,
     approach you with questions relating to the domain, and to reliably drive to completion
@@ -35,11 +35,11 @@ areas:
     your teammate's about the importance of integrating early and often. You are eventually able to
     get your team to a point where CI being red is no longer the norm.
 - id: domain-expertise
-  title: CF Domain Expertise
+  title: Domain Expertise
   description: >-
 
-    You understand the CF Products: How they work together, how they work with the larger ecosystem
-    of non-CF Products. You can navigate the CF system and its engineering teams on a broad level,
+    You understand our Products: How they work together, how they work with the broader ecosystem.
+    You can navigate this system and its engineering teams on a broad level,
     and know which areas to consider in problem-solving.
 
 
@@ -108,7 +108,7 @@ areas:
     ask relevant questions about an issue, figuring out what a customer needs to move forward, and
     drive it to resolution. You can communicate what you know respectfully to different audiences.
     You can also share what you still don’t know, and help identify the steps to learn more. You can
-    apply your acquired CF knowledge on the fly, and are able to explore creative solutions to help
+    apply your acquired knowledge on the fly, and are able to explore creative solutions to help
     meet the customer midway.
 
 

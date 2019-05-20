@@ -82,7 +82,7 @@ skills:
   area: technical-execution
   level: p3
 - id: s18eaa3cb
-  description: Can ramp up quickly to become productive on most CF teams
+  description: Can ramp up quickly to become productive on most teams
   area: technical-execution
   level: p3
 - id: s7ce63cd6
@@ -221,7 +221,7 @@ skills:
   level: p1
 - id: s523cd8bf
   description: >-
-    Shows curiosity about bigger picture (boxes and lines) of CF (eg: watched videos from Cloud
+    Shows curiosity about bigger picture (boxes and lines) of our products (eg: watched videos from Cloud
     Foundry Summit, reads materials relating to technical concepts when presented by colleagues)
   area: domain-expertise
   level: p1
@@ -238,7 +238,7 @@ skills:
   area: domain-expertise
   level: p2
 - id: scc522ffa
-  description: Diagnoses issues that involve interactions with multiple CF components
+  description: Diagnoses issues that involve interactions with multiple components
   area: domain-expertise
   level: p2
 - id: sf7158cd3
@@ -265,8 +265,8 @@ skills:
   level: p3
 - id: s4e20b350
   description: >-
-    Can explain boxes-and-lines version of CF and is able to provide a more detailed view on CF
-    components
+    Can explain the boxes-and-lines version of our products (e.g. PAS, PKS) and is able to provide a
+    more detailed view on all components directly or indirectly related to their team.
   area: domain-expertise
   level: p3
 - id: sc6072661
@@ -275,8 +275,8 @@ skills:
   level: p3
 - id: s1baf6c7c
   description: >-
-    Has working knowledge of an area of CF (eg: the BOSH ecosystem, the Platform, Logging and
-    Metrics)
+    Has working knowledge of an area of our products (eg: the BOSH ecosystem, the Platform, Logging and
+    Metrics, PKS)
   area: domain-expertise
   level: p4
 - id: s2e251366
@@ -286,7 +286,7 @@ skills:
   area: domain-expertise
   level: p4
 - id: s46177acd
-  description: Teaches Pivots on their team about a particular CF domain area
+  description: Teaches Pivots on their team about a particular domain area
   area: domain-expertise
   level: p4
 - id: s51c43be9
@@ -295,12 +295,12 @@ skills:
   level: p4
 - id: s66f23c3e
   description: >-
-    Can explain how a CF domain area has evolved over time (including familiarity with features in
+    Can explain how a domain area has evolved over time (including familiarity with features in
     past releases)
   area: domain-expertise
   level: p4
 - id: sa467f450
-  description: Takes measures to dissipate their CF domain knowledge with a goal of empowering their team
+  description: Takes measures to dissipate their domain knowledge with a goal of empowering their team
   area: domain-expertise
   level: p5
 - id: s8d1ab0e6
