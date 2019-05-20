@@ -45,7 +45,7 @@ One example of success in this area: Your team is not very disciplined about bui
 <td valign="top"><ul>
   <li>Understands and explains the XP/Agile principles behind specific practices of team's engineering process</li>
 
-  <li>Identifies problems on teams that can be fixed by changing engineering process</li>
+  <li>Identifies larger problems on teams that can be fixed by changing engineering process</li>
 
   <li>Advocates for a balanced team, and facilitates balanced decision-making</li>
 
