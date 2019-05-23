@@ -23,8 +23,6 @@ One example of success in this area: You are anchoring your team. You’ve been 
   <li>Volunteers for facilitating team meetings</li>
 
   <li>Discusses team “things” with their anchor (eg: team process, team health/morale, product, architecture)</li>
-
-  <li>Is comfortable letting go of a priority that they have worked on</li>
 </ul></td>
 </tr>
 
@@ -45,7 +43,7 @@ One example of success in this area: You are anchoring your team. You’ve been 
 
   <li>Able to anchor small/medium-sized teams with well-defined product priorities and technical direction</li>
 
-  <li>Recognizes when their pair or team would benefit from cutting scope, and builds consensus for it</li>
+  <li>Recognizes when the team would benefit from cutting scope, and helps them get comfortable with it</li>
 </ul></td>
 </tr>
 

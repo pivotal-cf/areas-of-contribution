@@ -50,7 +50,7 @@ Another example of success in this area: You join a team whose main responsibili
 
   <li>Recognizes and discusses potential anti-patterns</li>
 
-  <li>Can onboard pairs into well-defined stories</li>
+  <li>Clearly and kindly shares context on in-flight work to onboard their pair</li>
 </ul></td>
 </tr>
 

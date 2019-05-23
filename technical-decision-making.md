@@ -28,7 +28,7 @@ One example of success in this area: You have been noticing a lot of bugs arisin
 <tr>
 <td><strong>P2</strong></td>
 <td valign="top"><ul>
-  <li>Surfaces and discusses various factors (outlined on next page) when approaching a technical decision, with support from other pivots to make the final decision.</li>
+  <li>Surfaces and discusses various factors (e.g. maintainability, extensibility, security) when approaching a technical decision, with support from other pivots to make the final decision.</li>
 
   <li>Makes sound technical decisions that conform to the team's existing architecture or vision.</li>
 </ul></td>

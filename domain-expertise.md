@@ -29,7 +29,7 @@ One example of success in this area: You are trying to decide how to implement a
 <td valign="top"><ul>
   <li>Has working knowledge about the product their team is building.</li>
 
-  <li>Is learning about how other teams/downstream consumers/customers use their product</li>
+  <li>Has working knowledge about how other teams/downstream consumers/customers use their product</li>
 
   <li>Relates stories in the backlog to downstream consumers it would affect</li>
 
