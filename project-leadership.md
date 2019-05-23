@@ -23,6 +23,8 @@ One example of success in this area: You are anchoring your team. You’ve been 
   <li>Volunteers for facilitating team meetings</li>
 
   <li>Discusses team “things” with their anchor (eg: team process, team health/morale, product, architecture)</li>
+
+  <li>Is comfortable letting go of a priority that they have worked on</li>
 </ul></td>
 </tr>
 
@@ -42,6 +44,8 @@ One example of success in this area: You are anchoring your team. You’ve been 
   <li>Can provide technical leadership on their team, and are able to share their technical vision with team members</li>
 
   <li>Able to anchor small/medium-sized teams with well-defined product priorities and technical direction</li>
+
+  <li>Recognizes when their pair or team would benefit from cutting scope, and builds consensus for it</li>
 </ul></td>
 </tr>
 
@@ -61,6 +65,8 @@ One example of success in this area: You are anchoring your team. You’ve been 
   <li>Has a general awareness of work in progress; is able to catch missteps in real time and provide kind feedback to correct it</li>
 
   <li>Is a safety-net for the team, and is able to intervene when they see tasks/priorities getting dropped</li>
+
+  <li>Helps team and leadership recognize and agree on the right scope to cut from a large track or product</li>
 </ul></td>
 </tr>
 
@@ -80,6 +86,15 @@ One example of success in this area: You are anchoring your team. You’ve been 
   <li>Aware of interfaces and interactions of their team with other teams, and work with leadership to improve them over time</li>
 
   <li>Promotes/facilitates balanced decision-making on the team by demonstrating awareness of customer problems and sharing that with team members on a story level</li>
+
+  <li>Collaborates across teams and stakeholders to cut scope and re-align engineering effort with leadership-level priorities</li>
+</ul></td>
+</tr>
+
+<tr>
+<td><strong>P5</strong></td>
+<td valign="top"><ul>
+  <li>Regularly collaborates with leadership to align engineering efforts with strategic needs of our organization</li>
 </ul></td>
 </tr>
 
