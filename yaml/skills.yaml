@@ -53,8 +53,8 @@ skills:
   description: Recognizes and discusses potential anti-patterns
   area: technical-execution
   level: p2
-- id: scf9cdd7c
-  description: Can onboard pairs into well-defined stories
+- id: s9c1a2c9c
+  description: Clearly and kindly shares context on in-flight work to onboard their pair
   area: technical-execution
   level: p2
 - id: s8bd0c276
