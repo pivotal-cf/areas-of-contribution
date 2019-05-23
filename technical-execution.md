@@ -5,7 +5,7 @@ You can be depended upon to pick up a story from the backlog, do it well (quickl
 
 One example of success in this area: You are trusted to drive stories to completion, and answer on-call escalations. Your anchor can depend on you to pair/solo on any story in the backlog, and provide leadership on tracks that need extra guidance.
 
-Another example of success in this area: You join a team whose main responsibility is integrating assets from other teams, and deploying them to a long, running production environment. You have minimal experience with operating the CF platform at scale. You are able to learn the tribal knowledge on the team quickly, and are able to execute on stories in the backlog with little guidance. Soon after, other pairs rely on you to onboard new team members, approach you with questions relating to the domain, and to reliably drive to completion uncertain/risky/technically complex stories.
+Another example of success in this area: You join a team whose main responsibility is integrating assets from other teams, and deploying them to a long, running production environment. You have minimal experience with operating the platform at scale. You are able to learn the tribal knowledge on the team quickly, and are able to execute on stories in the backlog with little guidance. Soon after, other pairs rely on you to onboard new team members, approach you with questions relating to the domain, and to reliably drive to completion uncertain/risky/technically complex stories.
 
 ---
 
@@ -69,7 +69,7 @@ Another example of success in this area: You join a team whose main responsibili
 
   <li>Consistently follows up on tasks/communication from stories</li>
 
-  <li>Can ramp up quickly to become productive on most CF teams</li>
+  <li>Can ramp up quickly to become productive on most R&D teams</li>
 </ul></td>
 </tr>
 
