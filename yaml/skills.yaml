@@ -168,7 +168,7 @@ skills:
   area: engineering-process
   level: p3
 - id: sdd43d7d3
-  description: Identifies problems on teams that can be fixed by changing engineering process
+  description: Identifies larger problems on teams that can be fixed by changing engineering process
   area: engineering-process
   level: p3
 - id: sddec5a15
