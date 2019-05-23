@@ -58,19 +58,27 @@ function asFormPages_(migrateState) {
 
 function getActualFormPages_(form) {
   var pages = [];
-  var currentPageTitle;
+  var currentPage = {};
   form.getItems().forEach(function(item) {
     if (item.getType() === FormApp.ItemType.PAGE_BREAK) {
-      currentPageTitle = item.getTitle();
+      currentPage = {
+        title: item.getTitle(),
+        pageBreakItem: item,
+      }
       return
     }
-    if (item.getType() !== FormApp.ItemType.CHECKBOX_GRID) {
+
+    if (item.getType() === FormApp.ItemType.CHECKBOX_GRID) {
+      currentPage.checkboxGridItem = item.asCheckboxGridItem();
       return;
     }
-    pages.push({
-      title: currentPageTitle,
-      checkboxGridItem: item.asCheckboxGridItem(),
-    });
+
+    if (item.getType() !== FormApp.ItemType.PARAGRAPH_TEXT) {
+       return;
+    }
+
+    currentPage.paragraphTextItem = item.asParagraphTextItem();
+    pages.push(currentPage);
   });
   return pages;
 }
@@ -81,12 +89,6 @@ function validateFormRewrites_(form, migrationPlan) {
   if (expectedCurrentPages.length != newPages.length) {
     throw "this migration changes the number of form pages.  we don't support this yet!";
   }
-  expectedCurrentPages.forEach(function(expectedCurrentPage, i) {
-    const newPage = newPages[i];
-    if (newPage.title !== expectedCurrentPage.title) {
-      throw "this migration changes the page title for " + expectedCurrentPage.title + " but we don't yet support that!";
-    }
-  });
     
   const actualCurrentPages = getActualFormPages_(form);
   if (expectedCurrentPages.length != actualCurrentPages.length) {
@@ -106,6 +108,10 @@ function rewriteFormQuestions_(form, migrationPlan) {
     
     if (actualPage.title !== expectedCurrentPage.title) {
       throw "expected form page " + i + " to be " + expectedCurrentPage.title + " but instead was " + actualPage.title;
+    }
+    if (actualPage.title !== newPage.title) {
+      actualPage.pageBreakItem.setTitle(newPage.title);
+      actualPage.paragraphTextItem.setTitle(form_additionalContextTitle_(newPage.title));
     }
     
     actualPage.checkboxGridItem.setRows(newPage.gridRows);

@@ -82,6 +82,11 @@ function migrateCore_(spreadsheet, toGitRef) {
   // this causes the breakdown pages and impact summary to reload
   sheetConfig.updateExisting(configOption_rawResponsesSheetName, newLinkedRespSheet.getName());
  
+  // update titles of Areas if necessary
+  const retitleWarning = retitleAreasInSpreadsheet_(spreadsheet, migrationPlan);
+  if (retitleWarning) {
+    console.log(retitleWarning);
+  }
   // ensure breakdown pages have all formulas in all rows
   refillAllBreakdownPages_(spreadsheet, migrationPlan.migrateTo.areas);
    
@@ -90,9 +95,12 @@ function migrateCore_(spreadsheet, toGitRef) {
   sheetConfig.updateExisting(configOption_LastMigration, new Date());  
   form.setAcceptingResponses(wasAcceptingResponses);
   
-  const successMessage = "Migrated form and sheet from " + fromGitRef + " to " + toGitRef + ".\n" + migrationResult;
-  console.log(successMessage);
-  return successMessage;
+  var message = "Migrated form and sheet from " + fromGitRef + " to " + toGitRef + ".\n" + migrationResult;
+  if (retitleWarning) {
+    message += "\n" + retitleWarning;
+  }
+  console.log(message);
+  return message;
 }
 
 

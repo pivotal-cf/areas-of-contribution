@@ -56,6 +56,34 @@ function waitUntilTitlesHavePropagatedToOriginalSheet_(origLinkedRespSheet, migr
   } 
 }
 
+function retitleAreasInSpreadsheet_(spreadsheet, migrationPlan) {
+  const endAreasDict = arrayToDict_(migrationPlan.migrateTo.areas, function(a) { return [a.id, a ] });
+  const areasToRetitle = migrationPlan.migrateFrom.areas.map(function(startArea) {
+    const endArea = endAreasDict[startArea.id];
+    if (!endArea) {
+      throw "area " + startArea.id + " appears to have been deleted.  we don't support this in the current migration tooling";
+    }
+    return [sheet_areaTitle_(startArea), sheet_areaTitle_(endArea)];
+  }).filter(function(titles) { return titles[0] !== titles[1]; });
+
+  if (areasToRetitle.length == 0) {
+    return;
+  }
+  areasToRetitle.forEach(function([startTitle, endTitle]) {
+    const breakdownSheet = spreadsheet.getSheetByName(startTitle);
+    breakdownSheet.setName(endTitle);
+    breakdownSheet.getRange("A1").setValue(endTitle);
+  });
+
+  const impactSummarySheet = spreadsheet.getSheetByName("Impact Summary");
+  if (!impactSummarySheet) {
+    return "Warning: could not find Impact Summary sheet, but some area titles have changed.  You may need to manually fix.";
+  }
+
+  areasToRetitle.forEach(function([startTitle, endTitle]) {
+    impactSummarySheet.createTextFinder(startTitle).matchEntireCell(true).replaceAllWith(endTitle);
+  });
+}
 
 
 // ensures formulas on row 1 are copied all the way down to the last row
