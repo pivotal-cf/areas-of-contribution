@@ -69,7 +69,7 @@ Another example of success in this area: You join a team whose main responsibili
 
   <li>Consistently follows up on tasks/communication from stories</li>
 
-  <li>Can ramp up quickly to become productive on most teams</li>
+  <li>Can ramp up quickly to become productive on most R&D teams</li>
 </ul></td>
 </tr>
 

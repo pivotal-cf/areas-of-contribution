@@ -82,7 +82,7 @@ skills:
   area: technical-execution
   level: p3
 - id: s18eaa3cb
-  description: Can ramp up quickly to become productive on most teams
+  description: Can ramp up quickly to become productive on most R&D teams
   area: technical-execution
   level: p3
 - id: s7ce63cd6
@@ -295,7 +295,7 @@ skills:
   level: p4
 - id: s66f23c3e
   description: >-
-    Can explain how a domain area has evolved over time (including familiarity with features in
+    Can explain how a domain area has evolved over time (including familiarity with features and product decisions in
     past releases)
   area: domain-expertise
   level: p4

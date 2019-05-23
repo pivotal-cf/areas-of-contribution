@@ -2,7 +2,7 @@
 ## Domain Expertise
 
 
-You understand our Products: How they work together, how they work with the broader ecosystem. You can navigate this system and its engineering teams on a broad level, and know which areas to consider in problem-solving.
+You understand our Products (e.g. PAS, PKS): How they work together, how they work with the broader ecosystem. You can navigate this system and its engineering teams on a broad level, and know which areas to consider in problem-solving.
 
 One example of success in this area: You are trying to decide how to implement a database migration in CCDB. You know that this change may affect CC’s communication with Diego, with Routing, and with Networking. You surface how you think the changes will affect those teams to your PM/Anchor and work to find a solution that would minimize the impact on those teams. Additionally, you loop those teams into the conversation, and ensure that the solution you are moving forward with works as desired for them.
 
@@ -65,7 +65,7 @@ One example of success in this area: You are trying to decide how to implement a
 
   <li>Leverages their knowledge of related domain concepts to better the product</li>
 
-  <li>Can explain how a domain area has evolved over time (including familiarity with features in past releases)</li>
+  <li>Can explain how a domain area has evolved over time (including familiarity with features and product decisions in past releases)</li>
 </ul></td>
 </tr>
 
