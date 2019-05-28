@@ -134,6 +134,7 @@ If you change the meaning of a skill, please change the `id` also.  The decision
    - no?
      - then change the `id` field (in other words, "delete and re-recreate")
      - ok to change any fields
+     - This will result in old data being archived, so the change will be called out as **breaking** in release notes.
 
 
 ### Examples
