@@ -4,7 +4,7 @@ function onOpen() {
   .addSeparator()
   .addItem("Migrate...", "migrateUI_")
   .addSeparator()
-  .addItem("Bugfix: Normalization...", "bugfix_normalized_impact_")
+  .addItem("Bugfix to v2.0.2", "bugfix_normalized_impact_with_sparse_")
   .addToUi();
 }
 
