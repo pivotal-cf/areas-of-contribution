@@ -4,9 +4,9 @@ function getConfiguredRawRespSheet_(spreadsheet, sheetConfig) {
 
 function findLinkedSheet_(spreadsheet, form) {
   const sheets = spreadsheet.getSheets();
-  
+
   var linkedSheets = [];
-  sheets.forEach(function(s) { 
+  sheets.forEach(function(s) {
     const u = s.getFormUrl();
     if (!u) {
       return;
@@ -16,14 +16,14 @@ function findLinkedSheet_(spreadsheet, form) {
     }
     linkedSheets.push(s);
   });
-  
+
   if (linkedSheets.length > 1) {
     throw "too many sheet tabs are linked to the form";
   }
   if (linkedSheets.length < 1) {
     throw "expecting to find one sheet linked to form " + form.getId() + " but found none";
   }
-  return linkedSheets[0];  
+  return linkedSheets[0];
 }
 
 function getUnpropagatedHeaders(sheet, areas) {
@@ -37,7 +37,7 @@ function getUnpropagatedHeaders(sheet, areas) {
       unprop.push(form_areaTitle_(area));
     }
   });
-  return unprop;  
+  return unprop;
 }
 
 // don't unlink until title changes propagate to the google sheet
@@ -53,7 +53,7 @@ function waitUntilTitlesHavePropagatedToOriginalSheet_(origLinkedRespSheet, migr
       const unprop = getUnpropHeaders();
       throw "column header updates didn't propagate to raw response sheet.  outstanding: " + unprop;
     }
-  } 
+  }
 }
 
 function retitleAreasInSpreadsheet_(spreadsheet, migrationPlan) {
@@ -94,7 +94,7 @@ function refillBreakdownPage_(sheet) {
   firstRow.autoFill(sheet.getRange("D2:" + lastSkillRow), SpreadsheetApp.AutoFillSeries.DEFAULT_SERIES);
   if (lastSkillRow < sheet.getMaxRows()) {
     sheet.deleteRows(lastSkillRow+1,sheet.getMaxRows()-lastSkillRow);
-  } 
+  }
 }
 
 // ensures all breakdown pages have the correct size and all formulas filled
@@ -117,7 +117,7 @@ function getColumnHeaders_(sheet) {
 function trimFinalBlanks_(input) {
  var ar = input.slice(); // shallow copy
  while (ar.length) {
-   if (ar[ar.length-1] !== "") { 
+   if (ar[ar.length-1] !== "") {
      break;
    }
    ar.pop();

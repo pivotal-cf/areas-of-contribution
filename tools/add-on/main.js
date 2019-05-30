@@ -35,19 +35,19 @@ function alertOkCancel_(ui, title, message) {
 
 function migrateUI_() {
   const ui = SpreadsheetApp.getUi();
-  const toGitRef = promptOkCancel_(ui, "Migrate", 
+  const toGitRef = promptOkCancel_(ui, "Migrate",
       "Migrate the sheet, linked form, and all response data\nfrom your current version of Areas of Contribution to a new version.\n\nMigrate to git ref:");
   if (!toGitRef) {
     return;
   }
-  
+
   const really = alertOkCancel_(ui, "Ready?", "This may take up to *** 3 minutes *** to complete.\n\nContinue?");
   if (!really) {
     return;
   }
-  
+
   const successMessage = migrateCore_(SpreadsheetApp.getActiveSpreadsheet(), toGitRef);
-  
+
   ui.alert("Migration: Success!", successMessage, ui.ButtonSet.OK);
 }
 
