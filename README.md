@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pivotal-cf/areas-of-contribution.svg?branch=master)](https://travis-ci.org/pivotal-cf/areas-of-contribution)
 
-This *public* repo contains the set of skills, organized by "area" and "P-level", that CF Engineering management in SF and LA use when gathering feedback and evaluating engineers.
+This *public* repo contains the set of skills, organized by "area" and "P-level", that CF Engineering management in SF, LA and Seattle use when gathering feedback and evaluating engineers.
 
 It is a complement to the [CF Engineering Skills Chart](https://docs.google.com/document/d/1O4MyiVHssukhGLQSxLAVEmAjJT3Gvk2bx0Mg31VGeGo).
 
