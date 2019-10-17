@@ -693,7 +693,7 @@ skills:
   area: support
   level: p4
 - id: s4d08da96
-  description: Maintains context and switch between different to resolve an interrupt
+  description: Maintains context while switching between an interrupt and several other tasks.
   area: support
   level: p4
 - id: s9212b714

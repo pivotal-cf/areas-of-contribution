@@ -60,7 +60,7 @@ One example of success in this area: Your PM notes that there is an open support
 
   <li>Leads support conversations / resolution in high-stakes situations (e.g. angry customers, data loss, etc.)</li>
 
-  <li>Maintains context and switch between different to resolve an interrupt</li>
+  <li>Maintains context while switching between an interrupt and several other tasks.</li>
 </ul></td>
 </tr>
 
