@@ -123,8 +123,15 @@ areas:
   title: Technical Decision-Making
   description: >-
     Ability to weigh several factors when making technical decisions. Some factors that could be
-    considered are maintainability, security implications, performance implications, effects on
-    other consumers, extensibility and adaptability of system, etc.
+    considered are:
+
+      - maintainability
+      - security implications
+      - performance implications
+      - effects on downstream consumers
+      - extensibility
+      - adaptability of system / cost of change
+      - support
 
 
     One example of success in this area: You have been noticing a lot of bugs arising the output of
