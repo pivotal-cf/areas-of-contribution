@@ -171,6 +171,26 @@ If you change the meaning of a skill, please change the `id` also.  The decision
    +  level: p3
    ```
 
+### How to make a new `id`
+Each skill and area must have a unique `id`.  By convention, the skill `id`s begin with `s` and the areas begin with `a` and the rest is random hex.
+
+Given a new skill description, a convenient way to generate a new `id` in a terminal is:
+
+```bash
+printf "s%.8s" "$(echo "Asks relevant questions on stories" | shasum)"
+```
+which generates
+```
+sa7d19946
+```
+
+
+Uniqueness of `id`s can be validated by [running tests](https://github.com/pivotal-cf/areas-of-contribution/tree/master/tools/tests)
+
+```bash
+go run ./tools/tests/sanity_check.go -in ./yaml
+```
+These are also run in CI.
 
 
 ## Maintainers
