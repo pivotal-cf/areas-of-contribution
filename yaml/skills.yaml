@@ -738,8 +738,7 @@ skills:
   level: p2
 - id: sedef0230
   description: >-
-    Factors in maintenance/impact on feedback loops/impact on readbility and onboarding as parameter
-    when making technical decisions
+    Factors in maintenance (e.g. impact on feedback loops, onboarding new contributors) as parameter when making technical decisions.
   area: technical-decision-making
   level: p3
 - id: scb908ff1
