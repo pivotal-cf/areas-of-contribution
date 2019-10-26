@@ -3,7 +3,7 @@
 
 You understand the importance of maintaining feedback loops on an engineering team. You can expand on the philosophy behind our engineering process. You can innovate on our existing process to tailor practices to your team's needs.
 
-One example of success in this area: Your team is not very disciplined about build failures in CI. You start a conversation with your team to understand what could make CI more useful and share the pain you observe when CI is red. After discussing it, you make a chore to refactor your concourse pipeline, in order to get more actionable signals from each portion of the pipeline. Over time you use these signals to incrementally improve your CI pipeline and educate your teammate's about the importance of integrating early and often. You are eventually able to get your team to a point where CI being red is no longer the norm.
+One example of success in this area: Your team is not very disciplined about build failures in CI. You start a conversation with your team to understand what could make CI more useful and share the pain you observe when CI is red. After discussing it, you make a chore to refactor your concourse pipeline, in order to get more actionable signals from each portion of the pipeline. Over time you use these signals to incrementally improve your CI pipeline and educate your teammates about the importance of integrating early and often. You are eventually able to get your team to a point where CI being red is no longer the norm.
 
 ---
 

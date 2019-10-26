@@ -32,7 +32,7 @@ areas:
     share the pain you observe when CI is red. After discussing it, you make a chore to refactor
     your concourse pipeline, in order to get more actionable signals from each portion of the
     pipeline. Over time you use these signals to incrementally improve your CI pipeline and educate
-    your teammate's about the importance of integrating early and often. You are eventually able to
+    your teammates about the importance of integrating early and often. You are eventually able to
     get your team to a point where CI being red is no longer the norm.
 - id: domain-expertise
   title: Domain Expertise
