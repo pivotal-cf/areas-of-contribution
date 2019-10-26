@@ -802,8 +802,8 @@ skills:
   level: p4
 - id: s83b7e358
   description: >-
-    Able to explore options and make technical decisions (without painting project in the corner)
-    when there are unknowns in the domain
+    As a solo or single pair: Able to explore options and make technical decisions (without painting project in the corner)
+    when there are unknowns in the domain.
   area: technical-decision-making
   level: p4
 - id: s9ed2f691
