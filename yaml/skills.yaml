@@ -777,7 +777,9 @@ skills:
   area: technical-decision-making
   level: p3
 - id: s2d37a3d8
-  description: Takes an outcome-oriented mindset to technical decision-making.
+  description: >-
+    Takes an outcome-oriented mindset during the decision-making process,
+    reminding collaborators to zoom out from the above factors and consider the big picture.
   area: technical-decision-making
   level: p4
 - id: s02ef36a4

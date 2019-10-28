@@ -58,7 +58,7 @@ One example of success in this area: You have been noticing a lot of bugs arisin
 <tr>
 <td><strong>P4</strong></td>
 <td valign="top"><ul>
-  <li>Takes an outcome-oriented mindset to technical decision-making.</li>
+  <li>Takes an outcome-oriented mindset during the decision-making process, reminding collaborators to zoom out from the above factors and consider the big picture.</li>
 
   <li>Can articulate the tradeoffs and parameters (with priorities) that drove a technical decision</li>
 
