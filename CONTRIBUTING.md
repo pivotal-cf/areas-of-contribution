@@ -136,16 +136,15 @@ After editing one of the yaml files, regenerate the markdown by running the foll
 ./tools/regenerate.sh
 ```
 
-### Contributor decision tree
+### Contributor decision tree - Should I create a new id?
 - Should prior responses be migrated to the new skill definition?
    - yes?
      -  then keep the `id` field intact
      - it is ok to mutate `description` and any other fields
    - no?
-     - then change the `id` field (in other words, "delete and re-recreate")
+     - then [change the `id` field](#how-to-make-a-new-id) (in other words, "delete and re-recreate").
      - ok to change any fields
      - This will result in old data being archived, so the change will be called out as **breaking** in release notes.
-
 
 ### Examples
 
