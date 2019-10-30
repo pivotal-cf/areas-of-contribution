@@ -122,20 +122,29 @@ P-level a particular skill belongs at.
 
 ## How to make a change to the skill definitions
 
-Open a PR with a commit that changes some text in the [`skills.yaml` file](https://github.com/pivotal-cf/areas-of-contribution/blob/master/yaml/skills.yaml).
+Open a PR with a commit that: 
 
-If you change the meaning of a skill, please change the `id` also.  The decision of whether or not to migrate response data is conveyed by whether or not the `id` field of a skill definition remains intact.
+- Changes some text in the [`skills.yaml` file](https://github.com/pivotal-cf/areas-of-contribution/blob/master/yaml/skills.yaml) or [`areas.yaml` file](https://github.com/pivotal-cf/areas-of-contribution/blob/master/yaml/areas.yaml)
+- Contains regenerated, up-to-date markdown files
 
-### Contributor decision tree
+If you change the meaning of a skill, please change the `id` also.  The decision of whether or not to migrate response data is conveyed by whether or not the `id` field of a skill definition remains intact. See the help sections below for guidance.
+
+### How to regenerate markdown
+
+After editing one of the yaml files, regenerate the markdown by running the following:
+```
+./tools/regenerate.sh
+```
+
+### Contributor decision tree - Should I create a new id?
 - Should prior responses be migrated to the new skill definition?
    - yes?
      -  then keep the `id` field intact
      - it is ok to mutate `description` and any other fields
    - no?
-     - then change the `id` field (in other words, "delete and re-recreate")
+     - then [change the `id` field](#how-to-make-a-new-id) (in other words, "delete and re-recreate").
      - ok to change any fields
      - This will result in old data being archived, so the change will be called out as **breaking** in release notes.
-
 
 ### Examples
 
@@ -191,7 +200,6 @@ Uniqueness of `id`s can be validated by [running tests](https://github.com/pivot
 go run ./tools/tests/sanity_check.go -in ./yaml
 ```
 These are also run in CI.
-
 
 ## Maintainers
 This repo has maintainers.  They are listed in the [MAINTAINERS](MAINTAINERS) file.
