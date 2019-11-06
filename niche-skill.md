@@ -1,8 +1,0 @@
-## Niche Skill
-Optional placeholder category, for specific skill-sets or specializations which are not expected of every pivot. A Niche skill is way for Pivot's to express their unique contributions to the org, and a way for leadership to recognize the impact of their unique skill. In order to use this category, the engineer, manager, and director must create and agree upon a career ladder for this skill-set. Once it's been created, the pivot commits to following this ladder if they want to be evaluated for performing that skill.
-
-Examples: subject matter expertise in MySQL, Facilitation
-
-*One example of success in this area*: You are on a team that has gone through two back-to-back rewrites. They haven't been able to ship and deliver on customer outcomes in over a year. You notice that the previous attempts to solve the customer problem didn't work because no one on the team has deep domain expertise on how container to container networking works. Additionally, you notice that there are other parts of the organization that could benefit from having thought leadership in this space. 
-
-Your manager, director, and you talk through what it could mean for you to develop expertise in Networking as it relates to Distributed Systems. All three of you collaboratively build a career ladder of value you could bring to the organization by developing this expertise at a beginner level all the way upto a P6 level. You embark on the journey to add 'Subject Matter Expertise in Networking' as a Niche Skill to your Skills Matrix, and commit to stay on the journey to improve your expertise in Networking for the foreseeable future.
