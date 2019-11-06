@@ -34,16 +34,18 @@ We're attempting to organize contributions based on what we've historically obse
 
 See also: [Motivation](README.md#motivation).
 
-## Terminology
+## Style guide
 
-#### *Contribution* / *Skill*
+### Terminology
+
+##### *Contribution* / *Skill*
 - What: A specific, observable statement describing how an engineer may positively impact their team.  A single engineer doesn't have to master _all_ of these skills/contributions to be successful at Pivotal.
 
 - Example: *"Understands and explains the importance of improving feedback loops"*
 
 - Materializes as: A "bullet-point" in a markdown file in this repo, and a "row" in our feedback forms.
 
-#### *Skill Level*
+##### *Skill Level*
 - What: Contributions at a Skill Level are what we typically observe of Pivots at that P-Level
 
 - Example: "P3"
@@ -51,7 +53,7 @@ See also: [Motivation](README.md#motivation).
 - Materializes as: A column in the markdown files here.  Also, Contributions/Skills in the feedback form are ordered roughly according to this number.
 
 
-#### *Skill Area*
+##### *Skill Area*
 - What: A course-grained area of impact. Contains a set of possible contributions, organized by Skill Level.  A single engineer doesn't have to master _all_ of these areas to be successful at Pivotal.
 
 - Example: *"Technical Execution"*
@@ -59,7 +61,7 @@ See also: [Motivation](README.md#motivation).
 - Materializes as: A markdown file in this repo, or a pair pages in our feedback forms.
 
 
-#### *Impact Heatmap*
+##### *Impact Heatmap*
 
 - What: A visual summary of feedback gathered for a single Pivot, organized by Skill Area (rows) and level-of-impact (columns).  It is used by managers to guide the growth of their reports and is **one of** the inputs used when determining a Pivot's P-level.
 
@@ -67,14 +69,14 @@ See also: [Motivation](README.md#motivation).
 
 
 
-## Writing style
+### Writing style
 - Phrase skills in a "Does X" style, whenever possible.
 - Frequency is currently handled via the feedback form, so it doesn't need to be part of the skill definitions.
 - Focus on the **impact** of contributions, rather than simply the mechanics of doing them. We want these skills to be useful incentives as well as measures of success.
   - 👍 "Can fit healthy engineering chores into the normal flow of feature development." Pivots can be incentivized to maintain team health and balance with execution.
   - 👎 "Refactors code regularly" Pivots might be incentivized to refactor code, simply to check this box.
 
-## Themes across levels
+### Themes across levels
 
 These themes span skills and skill areas, and are ordered from left-to-right
 roughly in terms of scope or depth of impact.  They can be useful in determining what
