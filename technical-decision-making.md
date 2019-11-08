@@ -37,7 +37,7 @@ One example of success in this area: You have been noticing a lot of bugs arisin
 <tr>
 <td><strong>P3</strong></td>
 <td valign="top"><ul>
-  <li>Factors in maintenance/impact on feedback loops/impact on readbility and onboarding as parameter when making technical decisions</li>
+  <li>Factors in maintenance (e.g. impact on feedback loops, onboarding new contributors) as parameter when making technical decisions.</li>
 
   <li>Factors in support as parameter when making technical decisions</li>
 
