@@ -728,7 +728,7 @@ skills:
   level: p1
 - id: sb3dee7be
   description: >-
-    Surfaces and discusses various factors (e.g. maintainability, extensibility, security) when approaching a technical
+    Surfaces and discusses various factors (listed above in the skill area description) when approaching a technical
     decision, with support from other pivots to make the final decision.
   area: technical-decision-making
   level: p2
