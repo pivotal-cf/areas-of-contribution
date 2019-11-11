@@ -133,7 +133,6 @@ areas:
       - adaptability of system / cost of change
       - support
 
-
     One example of success in this area: You have been noticing a lot of bugs arising the output of
     <command 1> and <command 2>. Additionally, you often see stories in the backlog around adding
     the same sort of features to both commands. You look through the code and notice that even

@@ -11,7 +11,6 @@ Ability to weigh several factors when making technical decisions. Some factors t
   - adaptability of system / cost of change
   - support
 
-
 One example of success in this area: You have been noticing a lot of bugs arising the output of <command 1> and <command 2>. Additionally, you often see stories in the backlog around adding the same sort of features to both commands. You look through the code and notice that even though both commands are following separate code paths they are trying to accomplish roughly similar things. You share your findings with the team, and embark on a path to explore how to have both commands to follow similar code paths. After coming up with a plan, you get buy-in from your PM and other engineers to do this refactor as part of a larger epic. While you do this refactor you consider the maintainability and longer term extensibility of the system while you consolidate these paths. Finally, over time you observe that the number of bugs around those 2 commands decrease, and the team feels more comfortable navigating around that part of the codebase.
 
 ---
