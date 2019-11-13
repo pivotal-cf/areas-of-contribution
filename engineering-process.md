@@ -34,7 +34,7 @@ One example of success in this area: Your team is not very disciplined about bui
 
   <li>Can explain parts of our engineering process in terms of improving feedback loops</li>
 
-  <li>Shows discipline in upholding the team's engineering process</li>
+  <li>Demonstrates discipline and holds teammates accountable for following their agreed-upon processes.</li>
 
   <li>Provides feedback to teammates.</li>
 </ul></td>
