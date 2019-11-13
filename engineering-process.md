@@ -26,7 +26,7 @@ One example of success in this area: Your team is not very disciplined about bui
 <td valign="top"><ul>
   <li>Understands and explains the importance of improving feedback loops</li>
 
-  <li>Makes small tweaks to engineering process on their team, in response to retro items or team discussion.</li>
+  <li>Suggests small tweaks to engineering process on their team, in response to retro items or team discussion.</li>
 
   <li>Can onboard new team members on existing processes</li>
 
