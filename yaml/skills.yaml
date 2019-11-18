@@ -57,6 +57,10 @@ skills:
   description: Clearly and kindly shares context on in-flight work to onboard their pair
   area: technical-execution
   level: p2
+- id: s3ef6401
+  description: Makes progress on stories where the output is information, not feature work (explore stories, debugging, support)
+  area: technical-execution
+  level: p2
 - id: s8bd0c276
   description: 'Able to lead a pair on all tracks of work; can solo on any story in the backlog, if needed'
   area: technical-execution
@@ -83,6 +87,14 @@ skills:
   level: p3
 - id: s18eaa3cb
   description: Can ramp up quickly to become productive on most R&D teams
+  area: technical-execution
+  level: p3
+- id: sfec9b179
+  description: Notices when their pair or team is overwhelmed with information, and helps organize what the team knows already to create testable hypotheses
+  area: technical-execution
+  level: p3
+- id: s4b142e5b
+  description: Notices when their pair or team has gotten stuck because they don’t have enough information, and suggests approaches to generate new information
   area: technical-execution
   level: p3
 - id: s7ce63cd6
@@ -123,6 +135,10 @@ skills:
     complex code paths are slowing down feature delivery, facilitates conversations with the team on
     how to simplify them, gets buy-in from PM+leadership to prioritize this work, drives it to
     completion with the team)
+  area: technical-execution
+  level: p4
+- id: s1f2ea35
+  description: Coaches teammates in exploration skills, to help the team collect and organize the information they need to make decisions
   area: technical-execution
   level: p4
 - id: s32c60abf

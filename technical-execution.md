@@ -51,6 +51,8 @@ Another example of success in this area: You join a team whose main responsibili
   <li>Recognizes and discusses potential anti-patterns</li>
 
   <li>Clearly and kindly shares context on in-flight work to onboard their pair</li>
+
+  <li>Makes progress on stories where the output is information, not feature work (explore stories, debugging, support)</li>
 </ul></td>
 </tr>
 
@@ -70,6 +72,10 @@ Another example of success in this area: You join a team whose main responsibili
   <li>Consistently follows up on tasks/communication from stories</li>
 
   <li>Can ramp up quickly to become productive on most R&D teams</li>
+
+  <li>Notices when their pair or team is overwhelmed with information, and helps organize what the team knows already to create testable hypotheses</li>
+
+  <li>Notices when their pair or team has gotten stuck because they don’t have enough information, and suggests approaches to generate new information</li>
 </ul></td>
 </tr>
 
@@ -89,6 +95,8 @@ Another example of success in this area: You join a team whose main responsibili
   <li>Teaches technical concepts and show team members how it is applicable to their product</li>
 
   <li>Can navigate their way through legacy systems and improve throughput of the team (eg: notices complex code paths are slowing down feature delivery, facilitates conversations with the team on how to simplify them, gets buy-in from PM+leadership to prioritize this work, drives it to completion with the team)</li>
+
+  <li>Coaches teammates in exploration skills, to help the team collect and organize the information they need to make decisions</li>
 </ul></td>
 </tr>
 
