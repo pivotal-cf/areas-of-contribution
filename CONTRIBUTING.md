@@ -117,7 +117,7 @@ P-level a particular skill belongs at.
 
 <tr>
 <td>Presence</td>
-<td> Respectful → Inclusive → Empathetic </td>
+<td> Respectful → Inclusive → Proactive → Empathetic </td>
 </tr>
 
 </tbody></table>
