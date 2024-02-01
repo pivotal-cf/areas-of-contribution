@@ -1,4 +1,4 @@
-# Areas Of Contribution
+Areas Of Contribution
 
 [![Build Status](https://travis-ci.org/pivotal-cf/areas-of-contribution.svg?branch=master)](https://travis-ci.org/pivotal-cf/areas-of-contribution)
 
@@ -8,7 +8,7 @@ It is a complement to the [CF Engineering Skills Chart](https://docs.google.com/
 
 Have questions about how to interpret all of this?  Ask your manager, or open an issue on this repo!
 
-## Motivation
+Motivation
 
 We intend for the skills listed in this repo to describe the *impact* that a Pivot has.  We're trying to not focus too much on specific activities.
 
@@ -16,12 +16,12 @@ This is because we want to avoid [adverse incentives](https://en.wikipedia.org/w
 
 For more background on the thinking behind our current feedback process, [watch this video](https://sites.google.com/a/pivotal.io/cloud-foundry/resources/events-recordings/tech-talks/tt_feedback).
 
-## How to interpret "frequency" & "impact"
+How to interpret "frequency" & "impact"
 
 All checkboxes are optional. Only check boxes for what's been observed and is applicable.
 **Frequency** and **impact** should be treated as radio buttons. Please **do not** check multiple options within **impact** or **frequency**. For example, do not check both "High" and "Low" boxes for Impact.
 
-### FREQUENCY
+FREQUENCY
 
 - Have you observed a pivot do this?
   - Don't check anything unless you have
@@ -30,7 +30,7 @@ All checkboxes are optional. Only check boxes for what's been observed and is ap
     - Is it consistent & unprompted? Check "Appropriately"
     - Have they sometimes needed prompting? Check "Occassionaly"
 
-### IMPACT
+IMPACT
 
 - What difference have they made?
   - Leave **impact** blank and use **frequency** only if it isn't clear or if they haven't yet made a difference.
@@ -42,7 +42,7 @@ All checkboxes are optional. Only check boxes for what's been observed and is ap
 
 **Frequency** & **impact** are similar to [outputs & outcomes](https://hbr.org/2012/11/its-not-just-semantics-managing-outcomes). **Frequency** is important, it describes the consistency of a pivot's efforts. **Impact** is related and perhaps more important, it speaks to whether these efforts were effective.
 
-## Want to contribute?
+Want to contribute?
 **This repo is under active construction** and we welcome your help in improving
 it.
 
